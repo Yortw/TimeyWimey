@@ -45,6 +45,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UnixTime.cs" />
+    <Compile Include="DateTimeOffsetExtensions.cs" />
+    <Compile Include="DateTimeExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
