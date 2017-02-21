@@ -45,6 +45,11 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\CachingClock.cs" />
+    <Compile Include="Abstractions\ClockBase.cs" />
+    <Compile Include="Abstractions\IClock.cs" />
+    <Compile Include="Abstractions\MockClock.cs" />
+    <Compile Include="Abstractions\SystemClock.cs" />
     <Compile Include="UnixTime.cs" />
     <Compile Include="DateTimeOffsetExtensions.cs" />
     <Compile Include="DateTimeExtensions.cs" />

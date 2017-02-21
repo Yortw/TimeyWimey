@@ -51,9 +51,12 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="CachingClockTests.cs" />
     <Compile Include="DateTimeExtensionTests.cs" />
+    <Compile Include="MockClockTests.cs" />
     <Compile Include="DateTimeOffsetExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemClockTests.cs" />
     <Compile Include="UnixTimestampTests.cs" />
   </ItemGroup>
   <ItemGroup>
