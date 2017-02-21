@@ -12,6 +12,8 @@ namespace TimeyWimey
 	public static class DateTimeOffsetExtensions
 	{
 
+		#region IsFuture
+
 		/// <summary>
 		/// Returns true if <paramref name="time"/> references a time in the future.
 		/// </summary>
@@ -36,8 +38,14 @@ namespace TimeyWimey
 		/// <returns>True if the specified date and time is in the future, otherwise false.</returns>
 		public static bool IsFuture(this DateTimeOffset time, Abstractions.IClock clock)
 		{
+			if (clock == null) throw new ArgumentNullException(nameof(clock));
+
 			return time > clock.Now;
 		}
+
+		#endregion
+
+		#region IsPast
 
 		/// <summary>
 		/// Returns true if <paramref name="time"/> references a time in the past.
@@ -63,8 +71,12 @@ namespace TimeyWimey
 		/// <returns>True if the specified date and time is in the future, otherwise false.</returns>
 		public static bool IsPast(this DateTimeOffset time, Abstractions.IClock clock)
 		{
+			if (clock == null) throw new ArgumentNullException(nameof(clock));
+
 			return time < clock.Now;
 		}
+
+		#endregion
 
 	}
 }

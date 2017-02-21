@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TimeyWimey;
+using TimeyWimey.Abstractions;
 
 namespace TimeyWimey.Tests
 {
@@ -25,5 +26,124 @@ namespace TimeyWimey.Tests
 			actual = time.ChangeKind(DateTimeKind.Local);
 			Assert.AreEqual(localExpected, actual);
 		}
+
+		#region IsFuture
+
+		[TestMethod]
+		public void DateTime_IsFuture_ReturnsTrueForFutureDate()
+		{
+			Assert.AreEqual(true, DateTime.Now.AddHours(1).IsFuture());
+		}
+
+		[TestMethod]
+		public void DateTime_IsFuture_ReturnsFalseForNow()
+		{
+			Assert.AreEqual(false, DateTime.Now.IsFuture());
+		}
+
+		[TestMethod]
+		public void DateTime_IsFuture_ReturnsFalseForPast()
+		{
+			Assert.AreEqual(false, DateTime.Now.AddDays(-1).IsFuture());
+		}
+
+		[ExpectedException(typeof(ArgumentNullException))]
+		[TestMethod]
+		public void DateTime_IsFuture_ThrowsOnNullClock()
+		{
+			Assert.AreEqual(false, DateTime.Now.AddDays(-1).IsFuture(null));
+		}
+
+		[TestMethod]
+		public void DateTime_IsFuture_CustomClock_ReturnsTrueForFutureDate()
+		{
+			var mockClock = new MockClock();
+			mockClock.SetTime(new DateTimeOffset(2017, 02, 21, 22, 39, 00, DateTimeOffset.Now.Offset), false);
+
+			var testTime = new DateTime(2017, 02, 21, 22, 40, 00);
+			Assert.AreEqual(true, testTime.IsFuture(mockClock));
+		}
+
+		[TestMethod]
+		public void DateTime_IsFuture_CustomClock_ReturnsFalseForNow()
+		{
+			var mockClock = new MockClock();
+			mockClock.SetTime(new DateTimeOffset(2017, 02, 21, 22, 39, 00, DateTimeOffset.Now.Offset), false);
+
+			var testTime = new DateTime(2017, 02, 21, 22, 39, 00);
+			Assert.AreEqual(false, testTime.IsFuture(mockClock));
+		}
+
+		[TestMethod]
+		public void DateTime_IsFuture_CustomClock_ReturnsFalseForPast()
+		{
+			var mockClock = new MockClock();
+			mockClock.SetTime(new DateTimeOffset(2017, 02, 21, 22, 39, 00, DateTimeOffset.Now.Offset), false);
+
+			var testTime = new DateTime(2017, 02, 21, 22, 00, 00);
+			Assert.AreEqual(false, testTime.IsFuture(mockClock));
+		}
+
+		#endregion
+
+		#region IsPast
+
+		[TestMethod]
+		public void DateTime_IsPast_ReturnsFalseForFutureDate()
+		{
+			Assert.AreEqual(false, DateTime.Now.AddHours(1).IsPast());
+		}
+
+		[TestMethod]
+		public void DateTime_IsPast_ReturnsFalseForNow()
+		{
+			Assert.AreEqual(false, DateTime.Now.IsPast());
+		}
+
+		[TestMethod]
+		public void DateTime_IsPast_ReturnsTrueForPast()
+		{
+			Assert.AreEqual(true, DateTime.Now.AddDays(-1).IsPast());
+		}
+
+		[ExpectedException(typeof(ArgumentNullException))]
+		[TestMethod]
+		public void DateTime_IsPast_ThrowsOnNullClock()
+		{
+			Assert.AreEqual(false, DateTime.Now.AddDays(-1).IsPast(null));
+		}
+
+		[TestMethod]
+		public void DateTime_IsPast_CustomClock_ReturnsFalseForFutureDate()
+		{
+			var mockClock = new MockClock();
+			mockClock.SetTime(new DateTimeOffset(2017, 02, 21, 22, 39, 00, DateTimeOffset.Now.Offset), false);
+
+			var testTime = new DateTime(2017, 02, 21, 22, 40, 00);
+			Assert.AreEqual(false, testTime.IsPast(mockClock));
+		}
+
+		[TestMethod]
+		public void DateTime_IsPast_CustomClock_ReturnsFalseForNow()
+		{
+			var mockClock = new MockClock();
+			mockClock.SetTime(new DateTimeOffset(2017, 02, 21, 22, 39, 00, DateTimeOffset.Now.Offset), false);
+
+			var testTime = new DateTime(2017, 02, 21, 22, 39, 00);
+			Assert.AreEqual(false, testTime.IsPast(mockClock));
+		}
+
+		[TestMethod]
+		public void DateTime_IsPast_CustomClock_ReturnsTrueForPast()
+		{
+			var mockClock = new MockClock();
+			mockClock.SetTime(new DateTimeOffset(2017, 02, 21, 22, 39, 00, DateTimeOffset.Now.Offset), false);
+
+			var testTime = new DateTime(2017, 02, 21, 22, 00, 00);
+			Assert.AreEqual(true, testTime.IsPast(mockClock));
+		}
+
+		#endregion
+
 	}
 }
