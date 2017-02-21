@@ -13,13 +13,57 @@ namespace TimeyWimey
 	{
 
 		/// <summary>
-		/// Returns a new <see cref="DateTime"/> instance representing the date &amp; time the specified timestamp represents.
+		/// Returns true if <paramref name="time"/> references a time in the future.
 		/// </summary>
-		/// <param name="timestamp">A double value that is a unix timestamp.</param>
-		/// <returns>A <see cref="DateTime"/> that is equivalent to the provided timestamp.</returns>
-		public static DateTime FromUnixTimestamp(this double timestamp)
+		/// <remarks>
+		/// <para>This compares <paramref name="time"/> to <see cref="System.DateTimeOffset.Now"/>.</para>
+		/// </remarks>
+		/// <param name="time">The <see cref="System.DateTimeOffset"/> to check.</param>
+		/// <returns>True if the specified date and time is in the future, otherwise false.</returns>
+		public static bool IsFuture(this DateTimeOffset time)
 		{
-			return UnixTime.UnixEpoch.AddSeconds(timestamp);
+			return time > DateTimeOffset.Now;
+		}
+
+		/// <summary>
+		/// Returns true if <paramref name="time"/> references a time in the future.
+		/// </summary>
+		/// <remarks>
+		/// <para>This compares <paramref name="time"/> to <see cref="System.DateTimeOffset.Now"/>.</para>
+		/// </remarks>
+		/// <param name="time">The <see cref="System.DateTimeOffset"/> to check.</param>
+		/// <param name="clock">A <see cref="Abstractions.IClock"/> implementation used to obtain the current time.</param>
+		/// <returns>True if the specified date and time is in the future, otherwise false.</returns>
+		public static bool IsFuture(this DateTimeOffset time, Abstractions.IClock clock)
+		{
+			return time > clock.Now;
+		}
+
+		/// <summary>
+		/// Returns true if <paramref name="time"/> references a time in the past.
+		/// </summary>
+		/// <remarks>
+		/// <para>This compares <paramref name="time"/> to <see cref="System.DateTimeOffset.Now"/>.</para>
+		/// </remarks>
+		/// <param name="time">The <see cref="System.DateTimeOffset"/> to check.</param>
+		/// <returns>True if the specified date and time is in the future, otherwise false.</returns>
+		public static bool IsPast(this DateTimeOffset time)
+		{
+			return time < DateTimeOffset.Now;
+		}
+
+		/// <summary>
+		/// Returns true if <paramref name="time"/> references a time in the past.
+		/// </summary>
+		/// <remarks>
+		/// <para>This compares <paramref name="time"/> to <see cref="System.DateTimeOffset.Now"/>.</para>
+		/// </remarks>
+		/// <param name="time">The <see cref="System.DateTimeOffset"/> to check.</param>
+		/// <param name="clock">A <see cref="Abstractions.IClock"/> implementation used to obtain the current time.</param>
+		/// <returns>True if the specified date and time is in the future, otherwise false.</returns>
+		public static bool IsPast(this DateTimeOffset time, Abstractions.IClock clock)
+		{
+			return time < clock.Now;
 		}
 
 	}
