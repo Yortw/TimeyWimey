@@ -47,7 +47,7 @@ namespace TimeyWimey.Tests
 		[TestMethod]
 		public void UnixTime_ToUnixTimestamp_DateTime()
 		{
-			var timestamp = DateTime.Parse("20/02/2017 10:39:10.500 PM").ToUnixTimestamp();
+			var timestamp = DateTime.ParseExact("20/02/2017 10:39:10.500 PM", "dd/MM/yyyy hh:mm:ss.fff tt", null).ToUnixTimestamp();
 			Assert.AreEqual(1487630350.500, timestamp);
 			
 		}
@@ -55,7 +55,7 @@ namespace TimeyWimey.Tests
 		[TestMethod]
 		public void UnixTime_ToUnixTimestamp_DateTimeOffset()
 		{
-			var timestamp = DateTime.Parse("20/02/2017 10:39:10.500 PM").ToUnixTimestamp();
+			var timestamp = DateTime.ParseExact("20/02/2017 10:39:10.500 PM", "dd/MM/yyyy hh:mm:ss.fff tt", null).ToUnixTimestamp();
 			Assert.AreEqual(1487630350.500, timestamp);
 		}
 
@@ -68,7 +68,7 @@ namespace TimeyWimey.Tests
 		{
 			double timestamp = 1487630350.500;
 			var time = UnixTime.ToDateTime(timestamp);
-			Assert.AreEqual(DateTime.Parse("20/02/2017 10:39:10.500 PM"), time);
+			Assert.AreEqual(DateTime.ParseExact("20/02/2017 10:39:10.500 PM", "dd/MM/yyyy hh:mm:ss.fff tt", null), time);
 		}
 	
 		[TestMethod]
@@ -76,7 +76,7 @@ namespace TimeyWimey.Tests
 		{
 			double timestamp = 1487630350.500;
 			var time = UnixTime.ToDateTimeOffset(timestamp);
-			Assert.AreEqual(DateTime.Parse("20/02/2017 10:39:10.500 PM"), time);
+			Assert.AreEqual(DateTime.ParseExact("20/02/2017 10:39:10.500 PM", "dd/MM/yyyy hh:mm:ss.fff tt", null), time);
 		}
 
 		[TestMethod]
@@ -84,7 +84,7 @@ namespace TimeyWimey.Tests
 		{
 			long timestamp = 1487630350;
 			var time = UnixTime.ToDateTime(timestamp);
-			Assert.AreEqual(DateTime.Parse("20/02/2017 10:39:10 PM"), time);
+			Assert.AreEqual(DateTime.ParseExact("20/02/2017 10:39:10 PM", "dd/MM/yyyy hh:mm:ss tt", null), time);
 		}
 
 		[TestMethod]
@@ -92,7 +92,7 @@ namespace TimeyWimey.Tests
 		{
 			long timestamp = 1487630350;
 			var time = UnixTime.ToDateTimeOffset(timestamp);
-			Assert.AreEqual(DateTime.Parse("20/02/2017 10:39:10 PM"), time);
+			Assert.AreEqual(DateTime.ParseExact("20/02/2017 10:39:10 PM", "dd/MM/yyyy hh:mm:ss tt", null), time);
 		}
 
 		#endregion
