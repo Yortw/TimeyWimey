@@ -51,6 +51,8 @@
     <Compile Include="Abstractions\MockClock.cs" />
     <Compile Include="Abstractions\SystemClock.cs" />
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="NumberToTimespanExtensions.cs" />
+    <Compile Include="TimeSpans.cs" />
     <Compile Include="UnixTime.cs" />
     <Compile Include="DateTimeOffsetExtensions.cs" />
     <Compile Include="DateTimeExtensions.cs" />

@@ -22,7 +22,7 @@ namespace TimeyWimey
 		/// <summary>
 		/// Returns a <see cref="DateTimeOffset"/> instance representing 1st Jan 1970, the Unix epoch.
 		/// </summary>
-		public static readonly DateTimeOffset UnixEpochDateTimeOffset = new DateTimeOffset(1970, 01, 01, 0, 0, 0, DateTimeOffset.Now.Offset);
+		public static readonly DateTimeOffset UnixEpochDateTimeOffset = new DateTimeOffset(1970, 01, 01, 0, 0, 0, new DateTimeOffset(UnixEpoch).Offset);
 
 		#endregion
 

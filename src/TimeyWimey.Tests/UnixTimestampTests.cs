@@ -30,7 +30,8 @@ namespace TimeyWimey.Tests
 		[TestMethod]
 		public void Unixtime_EpochOffset_Is01011970()
 		{
-			Assert.AreEqual(new DateTimeOffset(1970, 01, 01, 00, 00, 00, DateTimeOffset.Now.Offset), UnixTime.UnixEpochDateTimeOffset);
+			Assert.AreEqual(new DateTime(1970, 01, 01, 00, 00, 00), UnixTime.UnixEpochDateTimeOffset.DateTime);
+			Assert.AreEqual(new DateTimeOffset(1970, 01, 01, 00, 00, 00, new DateTimeOffset(UnixTime.UnixEpoch).Offset), UnixTime.UnixEpochDateTimeOffset);
 		}
 
 		[TestMethod]
@@ -92,7 +93,7 @@ namespace TimeyWimey.Tests
 		{
 			long timestamp = 1487630350;
 			var time = UnixTime.ToDateTimeOffset(timestamp);
-			Assert.AreEqual(DateTime.ParseExact("20/02/2017 10:39:10 PM", "dd/MM/yyyy hh:mm:ss tt", null), time);
+			Assert.AreEqual(DateTimeOffset.ParseExact("20/02/2017 10:39:10 PM", "dd/MM/yyyy hh:mm:ss tt", null), time);
 		}
 
 		#endregion

@@ -58,7 +58,7 @@ namespace TimeyWimey
 		{
 			if (clock == null) throw new ArgumentNullException(nameof(clock));
 
-			return time > clock.Now;
+			return time > clock.Now.DateTime;
 		}
 
 		#endregion
@@ -91,7 +91,7 @@ namespace TimeyWimey
 		{
 			if (clock == null) throw new ArgumentNullException(nameof(clock));
 
-			return time < clock.Now;
+			return time < clock.Now.DateTime;
 		}
 
 		#endregion
