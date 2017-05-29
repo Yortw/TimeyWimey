@@ -145,5 +145,51 @@ namespace TimeyWimey.Tests
 
 		#endregion
 
+		#region Truncation
+
+		[TestMethod]
+		public void DateTime_TruncateToSeconds_DoesNothingWhenMillsecondsZero()
+		{
+			var d = new DateTime(2017, 05, 29, 13, 23, 57, 0, DateTimeKind.Local);
+			Assert.AreEqual(new DateTime(2017, 05, 29, 13, 23, 57, 0, DateTimeKind.Local), d.TruncateToSeconds());
+		}
+
+		[TestMethod]
+		public void DateTime_TruncateToSeconds_RemovesMilliseconds()
+		{
+			var d = new DateTime(2017, 05, 29, 13, 23, 57, 432, DateTimeKind.Local);
+			Assert.AreEqual(new DateTime(2017, 05, 29, 13, 23, 57, 0, DateTimeKind.Local), d.TruncateToSeconds());
+		}
+
+		[TestMethod]
+		public void DateTime_TruncateToMinutes_DoesNothingWhenSecondsAndMillsecondsZero()
+		{
+			var d = new DateTime(2017, 05, 29, 13, 23, 0, 0, DateTimeKind.Local);
+			Assert.AreEqual(new DateTime(2017, 05, 29, 13, 23, 0, 0, DateTimeKind.Local), d.TruncateToSeconds());
+		}
+
+		[TestMethod]
+		public void DateTime_TruncateToMinutes_RemovesSecondsAndMilliseconds()
+		{
+			var d = new DateTime(2017, 05, 29, 13, 23, 57, 432, DateTimeKind.Local);
+			Assert.AreEqual(new DateTime(2017, 05, 29, 13, 23, 0, 0, DateTimeKind.Local), d.TruncateToMinutes());
+		}
+
+		[TestMethod]
+		public void DateTime_TruncateToHours_DoesNothingWhenMinutesSecondsAndMillsecondsZero()
+		{
+			var d = new DateTime(2017, 05, 29, 13, 0, 0, 0, DateTimeKind.Local);
+			Assert.AreEqual(new DateTime(2017, 05, 29, 13, 0, 0, 0, DateTimeKind.Local), d.TruncateToSeconds());
+		}
+
+		[TestMethod]
+		public void DateTime_TruncateToMinutes_RemovesMinutesSecondsAndMilliseconds()
+		{
+			var d = new DateTime(2017, 05, 29, 13, 23, 57, 432, DateTimeKind.Local);
+			Assert.AreEqual(new DateTime(2017, 05, 29, 13, 0, 0, 0, DateTimeKind.Local), d.TruncateToHours());
+		}
+
+		#endregion
+
 	}
 }

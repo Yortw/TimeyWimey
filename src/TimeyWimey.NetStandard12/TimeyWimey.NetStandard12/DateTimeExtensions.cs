@@ -96,5 +96,45 @@ namespace TimeyWimey
 
 		#endregion
 
+		#region Truncation
+
+		/// <summary>
+		/// Returns a new <see cref="DateTime"/> value equivalent to the one provided but with a zero millsecond component.
+		/// </summary>
+		/// <param name="value">The <see cref="DateTime"/> value to truncate.</param>
+		/// <returns>A new <see cref="DateTime"/> missing the millseconds component of <paramref name="value"/>.</returns>
+		public static DateTime TruncateToSeconds(this DateTime value)
+		{
+			if (value.Millisecond == 0) return value;
+
+			return value.Subtract(TimeSpan.FromMilliseconds(value.Millisecond));
+		}
+
+		/// <summary>
+		/// Returns a new <see cref="DateTime"/> value equivalent to the one provided but with zero second and millsecond components.
+		/// </summary>
+		/// <param name="value">The <see cref="DateTime"/> value to truncate.</param>
+		/// <returns>A new <see cref="DateTime"/> missing the seconds and millseconds components of <paramref name="value"/>.</returns>
+		public static DateTime TruncateToMinutes(this DateTime value)
+		{
+			if (value.Second + value.Millisecond == 0) return value;
+
+			return value.Subtract(TimeSpan.FromMilliseconds((value.Second * 1000) + value.Millisecond));
+		}
+
+		/// <summary>
+		/// Returns a new <see cref="DateTime"/> value equivalent to the one provided but with zero minute, second, and millsecond components.
+		/// </summary>
+		/// <param name="value">The <see cref="DateTime"/> value to truncate.</param>
+		/// <returns>A new <see cref="DateTime"/> missing the minutes, seconds and millseconds components of <paramref name="value"/>.</returns>
+		public static DateTime TruncateToHours(this DateTime value)
+		{
+			if (value.Minute + value.Second + value.Millisecond == 0) return value;
+
+			return value.Subtract(TimeSpan.FromMilliseconds((value.Minute * 60000) + (value.Second * 1000) + value.Millisecond));
+		}
+
+		#endregion
+
 	}
 }

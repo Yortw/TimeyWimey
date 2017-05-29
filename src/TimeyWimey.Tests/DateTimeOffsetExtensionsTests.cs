@@ -130,5 +130,51 @@ namespace TimeyWimey.Tests
 
 		#endregion
 
+		#region Truncation
+
+		[TestMethod]
+		public void DateTimeOffset_TruncateToSeconds_DoesNothingWhenMillsecondsZero()
+		{
+			var d = new DateTimeOffset(2017, 05, 29, 13, 23, 57, 0, TimeSpan.Zero);
+			Assert.AreEqual(new DateTimeOffset(2017, 05, 29, 13, 23, 57, 0, TimeSpan.Zero), d.TruncateToSeconds());
+		}
+
+		[TestMethod]
+		public void DateTimeOffset_TruncateToSeconds_RemovesMilliseconds()
+		{
+			var d = new DateTimeOffset(2017, 05, 29, 13, 23, 57, 432, TimeSpan.Zero);
+			Assert.AreEqual(new DateTimeOffset(2017, 05, 29, 13, 23, 57, 0, TimeSpan.Zero), d.TruncateToSeconds());
+		}
+
+		[TestMethod]
+		public void DateTimeOffset_TruncateToMinutes_DoesNothingWhenSecondsAndMillsecondsZero()
+		{
+			var d = new DateTimeOffset(2017, 05, 29, 13, 23, 0, 0, TimeSpan.Zero);
+			Assert.AreEqual(new DateTimeOffset(2017, 05, 29, 13, 23, 0, 0, TimeSpan.Zero), d.TruncateToSeconds());
+		}
+
+		[TestMethod]
+		public void DateTimeOffset_TruncateToMinutes_RemovesSecondsAndMilliseconds()
+		{
+			var d = new DateTimeOffset(2017, 05, 29, 13, 23, 57, 432, TimeSpan.Zero);
+			Assert.AreEqual(new DateTimeOffset(2017, 05, 29, 13, 23, 0, 0, TimeSpan.Zero), d.TruncateToMinutes());
+		}
+
+		[TestMethod]
+		public void DateTimeOffset_TruncateToHours_DoesNothingWhenMinutesSecondsAndMillsecondsZero()
+		{
+			var d = new DateTimeOffset(2017, 05, 29, 13, 0, 0, 0, TimeSpan.Zero);
+			Assert.AreEqual(new DateTimeOffset(2017, 05, 29, 13, 0, 0, 0, TimeSpan.Zero), d.TruncateToSeconds());
+		}
+
+		[TestMethod]
+		public void DateTimeOffset_TruncateToMinutes_RemovesMinutesSecondsAndMilliseconds()
+		{
+			var d = new DateTimeOffset(2017, 05, 29, 13, 23, 57, 432, TimeSpan.Zero);
+			Assert.AreEqual(new DateTimeOffset(2017, 05, 29, 13, 0, 0, 0, TimeSpan.Zero), d.TruncateToHours());
+		}
+
+		#endregion
+
 	}
 }

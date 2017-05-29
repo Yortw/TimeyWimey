@@ -78,5 +78,45 @@ namespace TimeyWimey
 
 		#endregion
 
+		#region Truncation
+
+		/// <summary>
+		/// Returns a new <see cref="DateTimeOffset"/> value equivalent to the one provided but with a zero millsecond component.
+		/// </summary>
+		/// <param name="value">The <see cref="DateTimeOffset"/> value to truncate.</param>
+		/// <returns>A new <see cref="DateTimeOffset"/> missing the millseconds component of <paramref name="value"/>.</returns>
+		public static DateTimeOffset TruncateToSeconds(this DateTimeOffset value)
+		{
+			if (value.Millisecond == 0) return value;
+
+			return value.Subtract(TimeSpan.FromMilliseconds(value.Millisecond));
+		}
+
+		/// <summary>
+		/// Returns a new <see cref="DateTimeOffset"/> value equivalent to the one provided but with zero second and millsecond components.
+		/// </summary>
+		/// <param name="value">The <see cref="DateTimeOffset"/> value to truncate.</param>
+		/// <returns>A new <see cref="DateTimeOffset"/> missing the seconds and millseconds components of <paramref name="value"/>.</returns>
+		public static DateTimeOffset TruncateToMinutes(this DateTimeOffset value)
+		{
+			if (value.Second + value.Millisecond == 0) return value;
+
+			return value.Subtract(TimeSpan.FromMilliseconds((value.Second * 1000) + value.Millisecond));
+		}
+
+		/// <summary>
+		/// Returns a new <see cref="DateTimeOffset"/> value equivalent to the one provided but with zero minute, second, and millsecond components.
+		/// </summary>
+		/// <param name="value">The <see cref="DateTimeOffset"/> value to truncate.</param>
+		/// <returns>A new <see cref="DateTimeOffset"/> missing the minutes, seconds and millseconds components of <paramref name="value"/>.</returns>
+		public static DateTimeOffset TruncateToHours(this DateTimeOffset value)
+		{
+			if (value.Minute + value.Second + value.Millisecond == 0) return value;
+
+			return value.Subtract(TimeSpan.FromMilliseconds((value.Minute * 60000) + (value.Second * 1000) + value.Millisecond));
+		}
+
+		#endregion
+
 	}
 }
