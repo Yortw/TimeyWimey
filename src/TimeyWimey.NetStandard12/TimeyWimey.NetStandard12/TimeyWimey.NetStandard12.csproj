@@ -50,6 +50,7 @@
     <Compile Include="Abstractions\IClock.cs" />
     <Compile Include="Abstractions\MockClock.cs" />
     <Compile Include="Abstractions\SystemClock.cs" />
+    <Compile Include="DateTimeRange.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="NumberToTimespanExtensions.cs" />
     <Compile Include="TimeSpans.cs" />

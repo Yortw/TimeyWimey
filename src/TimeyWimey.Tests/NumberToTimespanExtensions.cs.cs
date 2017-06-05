@@ -12,6 +12,8 @@ namespace TimeyWimey.Tests
 	public class NumberToTimespanExtensions
 	{
 
+		#region Integer Tests
+
 		[TestMethod]
 		public void IntegerToMilliseconds_InitialisesTimeSpanCorrectly()
 		{
@@ -71,6 +73,8 @@ namespace TimeyWimey.Tests
 			Assert.AreEqual(-4, -4.Days().TotalDays);
 			Assert.AreEqual(-10, -10.Days().TotalDays);
 		}
+
+		#endregion
 
 	}
 }

@@ -16,9 +16,9 @@
         <tags>date time timeywimey netstandard12</tags>
     </metadata>
     <files>
-        <file src="TimeyWimey.NetStandard12\TimeyWimey.NetStandard12\bin\Release\TimeyWimey.NetStandard12.dll" target="lib\netstandard1.2\TimeyWimey.NetStandard12.dll" />
-        <file src="TimeyWimey.NetStandard12\TimeyWimey.NetStandard12\bin\Release\TimeyWimey.NetStandard12.pdb" target="lib\netstandard1.2\TimeyWimey.NetStandard12.pdb" />
-        <file src="TimeyWimey.NetStandard12\TimeyWimey.NetStandard12\bin\Release\TimeyWimey.NetStandard12.xml" target="lib\netstandard1.2\TimeyWimey.NetStandard12.xml" />
-        <file src="**\*.cs" target="src" />
+        <file src="src\TimeyWimey.NetStandard12\TimeyWimey.NetStandard12\bin\Release\TimeyWimey.NetStandard12.dll" target="lib\netstandard1.2\TimeyWimey.NetStandard12.dll" />
+        <file src="src\TimeyWimey.NetStandard12\TimeyWimey.NetStandard12\bin\Release\TimeyWimey.NetStandard12.pdb" target="lib\netstandard1.2\TimeyWimey.NetStandard12.pdb" />
+        <file src="src\TimeyWimey.NetStandard12\TimeyWimey.NetStandard12\bin\Release\TimeyWimey.NetStandard12.xml" target="lib\netstandard1.2\TimeyWimey.NetStandard12.xml" />
+        <file src="src\**\*.cs" target="src" />
     </files>
 </package>
