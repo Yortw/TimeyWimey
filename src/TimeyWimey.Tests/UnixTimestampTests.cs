@@ -56,7 +56,7 @@ namespace TimeyWimey.Tests
 		[TestMethod]
 		public void UnixTime_ToUnixTimestamp_DateTimeOffset()
 		{
-			var timestamp = DateTime.ParseExact("20/02/2017 10:39:10.500 PM", "dd/MM/yyyy hh:mm:ss.fff tt", null).ToUnixTimestamp();
+			var timestamp = DateTimeOffset.ParseExact("20/02/2017 10:39:10.500 PM", "dd/MM/yyyy hh:mm:ss.fff tt", null).ToUnixTimestamp();
 			Assert.AreEqual(1487630350.500, timestamp);
 		}
 

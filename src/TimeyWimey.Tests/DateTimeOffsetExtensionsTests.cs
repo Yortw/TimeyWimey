@@ -150,7 +150,7 @@ namespace TimeyWimey.Tests
 		public void DateTimeOffset_TruncateToMinutes_DoesNothingWhenSecondsAndMillsecondsZero()
 		{
 			var d = new DateTimeOffset(2017, 05, 29, 13, 23, 0, 0, TimeSpan.Zero);
-			Assert.AreEqual(new DateTimeOffset(2017, 05, 29, 13, 23, 0, 0, TimeSpan.Zero), d.TruncateToSeconds());
+			Assert.AreEqual(new DateTimeOffset(2017, 05, 29, 13, 23, 0, 0, TimeSpan.Zero), d.TruncateToMinutes());
 		}
 
 		[TestMethod]
@@ -164,7 +164,7 @@ namespace TimeyWimey.Tests
 		public void DateTimeOffset_TruncateToHours_DoesNothingWhenMinutesSecondsAndMillsecondsZero()
 		{
 			var d = new DateTimeOffset(2017, 05, 29, 13, 0, 0, 0, TimeSpan.Zero);
-			Assert.AreEqual(new DateTimeOffset(2017, 05, 29, 13, 0, 0, 0, TimeSpan.Zero), d.TruncateToSeconds());
+			Assert.AreEqual(new DateTimeOffset(2017, 05, 29, 13, 0, 0, 0, TimeSpan.Zero), d.TruncateToHours());
 		}
 
 		[TestMethod]

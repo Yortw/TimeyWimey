@@ -90,6 +90,7 @@ namespace TimeyWimey.Abstractions
 			if (isDisposing)
 			{
 				_InnerClock.Adjusted -= this.InnerClock_Adjusted;
+				(_InnerClock as IDisposable)?.Dispose();
 			}
 		}
 

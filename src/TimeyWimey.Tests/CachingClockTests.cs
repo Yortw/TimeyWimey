@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using TimeyWimey.Abstractions;
 
@@ -72,5 +73,59 @@ namespace TimeyWimey.Tests
 			Assert.AreNotEqual(time2, time3);
 		}
 
+		[TestMethod]
+		public void CachingClock_DisposesInnerClock()
+		{
+			var innerClock = new DisposableMockClock();
+			using (var clock = new CachingClock(innerClock, 2000))
+			{
+			}
+			Assert.IsTrue(innerClock.IsDisposed);
+		}
+
+		[TestMethod]
+		public void CachingClock_BubblesAdjustedEvent()
+		{
+			bool eventRaised = false;
+			var innerClock = new DisposableMockClock();
+			using (var signal = new ManualResetEvent(false))
+			{
+				using (var clock = new CachingClock(innerClock, 2000))
+				{
+					clock.Adjusted += (s, e) =>
+					{
+						eventRaised = true;
+						signal.Set();
+					};
+
+					innerClock.RaisesAdjustedEvent();
+					signal.WaitOne(1000);
+				}
+			}
+			Assert.IsTrue(eventRaised);
+		}
+
+	}
+
+	public class DisposableMockClock : ClockBase, IDisposable
+	{
+		private bool _IsDisposed;
+
+		public override DateTimeOffset Now => DateTimeOffset.Now;
+
+		public void RaisesAdjustedEvent()
+		{
+			base.OnAdjusted();
+		}
+
+		public void Dispose()
+		{
+			_IsDisposed = true;
+		}
+
+		public bool IsDisposed
+		{
+			get { return _IsDisposed; }
+		}
 	}
 }

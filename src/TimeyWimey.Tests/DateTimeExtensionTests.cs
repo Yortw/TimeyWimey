@@ -27,6 +27,16 @@ namespace TimeyWimey.Tests
 			Assert.AreEqual(localExpected, actual);
 		}
 
+		[TestMethod]
+		public void DateTime_ChangeKind_DoesNothingWhenKindMatches()
+		{
+			var time = new DateTime(2016, 03, 17, 13, 0, 0, DateTimeKind.Local);
+			var localExpected = new DateTime(2016, 03, 17, 13, 0, 0, DateTimeKind.Local);
+
+			var actual = time.ChangeKind(DateTimeKind.Local);
+			Assert.AreEqual(localExpected, actual.ChangeKind(DateTimeKind.Local));
+		}
+
 		#region IsFuture
 
 		[TestMethod]
@@ -165,7 +175,7 @@ namespace TimeyWimey.Tests
 		public void DateTime_TruncateToMinutes_DoesNothingWhenSecondsAndMillsecondsZero()
 		{
 			var d = new DateTime(2017, 05, 29, 13, 23, 0, 0, DateTimeKind.Local);
-			Assert.AreEqual(new DateTime(2017, 05, 29, 13, 23, 0, 0, DateTimeKind.Local), d.TruncateToSeconds());
+			Assert.AreEqual(new DateTime(2017, 05, 29, 13, 23, 0, 0, DateTimeKind.Local), d.TruncateToMinutes());
 		}
 
 		[TestMethod]
@@ -179,7 +189,7 @@ namespace TimeyWimey.Tests
 		public void DateTime_TruncateToHours_DoesNothingWhenMinutesSecondsAndMillsecondsZero()
 		{
 			var d = new DateTime(2017, 05, 29, 13, 0, 0, 0, DateTimeKind.Local);
-			Assert.AreEqual(new DateTime(2017, 05, 29, 13, 0, 0, 0, DateTimeKind.Local), d.TruncateToSeconds());
+			Assert.AreEqual(new DateTime(2017, 05, 29, 13, 0, 0, 0, DateTimeKind.Local), d.TruncateToHours());
 		}
 
 		[TestMethod]
