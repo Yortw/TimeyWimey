@@ -63,9 +63,9 @@
     <Compile Include="UnixTimestampTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TimeyWimey.NetStandard12\TimeyWimey.NetStandard12\TimeyWimey.NetStandard12.csproj">
+    <ProjectReference Include="..\TimeyWimey.NetStandard10\TimeyWimey.NetStandard10.csproj">
       <Project>{e8d33b6e-b97c-410d-a3eb-707a67fe7d2a}</Project>
-      <Name>TimeyWimey.NetStandard12</Name>
+      <Name>TimeyWimey.NetStandard10</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
