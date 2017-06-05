@@ -469,5 +469,23 @@ namespace TimeyWimey.Tests
 
 		#endregion
 
+		#region Length Tests
+
+		[TestMethod]
+		public void DateTimeRange_Length_ReturnsZeroForSameStartAndEnd()
+		{
+			var r = new DateTimeRange(DateTime.Now.Date, DateTime.Now.Date);
+			Assert.AreEqual(TimeSpan.Zero, r.Length);
+		}
+
+		[TestMethod]
+		public void DateTimeRange_Length_ReturnsExpectedNonZeroLength()
+		{
+			var r = new DateTimeRange(DateTime.Now.Date, DateTime.Now.Date.AddDays(1));
+			Assert.AreEqual(TimeSpan.FromDays(1), r.Length);
+		}
+
+		#endregion
+
 	}
 }

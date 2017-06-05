@@ -19,6 +19,7 @@ namespace TimeyWimey
 
 		private DateTime _Start;
 		private DateTime _End;
+		private TimeSpan _Length;
 
 		#endregion
 
@@ -53,6 +54,20 @@ namespace TimeyWimey
 		/// Returns the date and time this date range ends at.
 		/// </summary>
 		public DateTime End { get { return _End; } }
+
+		/// <summary>
+		/// Returns the length of the range as a <see cref="System.TimeSpan"/> instance.
+		/// </summary>
+		public TimeSpan Length
+		{
+			get
+			{
+				if (_Length == TimeSpan.Zero)
+					_Length = End.Subtract(Start);
+
+				return _Length;
+			}
+		}
 
 		#endregion
 
