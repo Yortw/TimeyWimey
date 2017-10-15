@@ -1,0 +1,624 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.Abstractions.ClockBase
+  commentId: T:TimeyWimey.Abstractions.ClockBase
+  id: ClockBase
+  parent: TimeyWimey.Abstractions
+  children:
+  - TimeyWimey.Abstractions.ClockBase.Adjusted
+  - TimeyWimey.Abstractions.ClockBase.Now
+  - TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  langs:
+  - csharp
+  - vb
+  name: ClockBase
+  nameWithType: ClockBase
+  fullName: TimeyWimey.Abstractions.ClockBase
+  type: Class
+  source:
+    id: ClockBase
+    path: ''
+    startLine: 1288
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nBase class for the <xref href=\"TimeyWimey.Abstractions.IClock\" data-throw-if-not-resolved=\"false\"></xref> interface, providing some minimal reuse. Do not reference this class directly unless deriving your own clock type.\n"
+  example: []
+  syntax:
+    content: 'public abstract class ClockBase : IClock'
+    content.vb: >-
+      Public MustInherit Class ClockBase
+          Implements IClock
+  seealso:
+  - linkId: TimeyWimey.Abstractions.IClock
+    commentId: T:TimeyWimey.Abstractions.IClock
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - TimeyWimey.Abstractions.MockClock
+  - TimeyWimey.Abstractions.SystemClock
+  implements:
+  - TimeyWimey.Abstractions.IClock
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: TimeyWimey.Abstractions.ClockBase.Adjusted
+  commentId: E:TimeyWimey.Abstractions.ClockBase.Adjusted
+  id: Adjusted
+  parent: TimeyWimey.Abstractions.ClockBase
+  langs:
+  - csharp
+  - vb
+  name: Adjusted
+  nameWithType: ClockBase.Adjusted
+  fullName: TimeyWimey.Abstractions.ClockBase.Adjusted
+  type: Event
+  source:
+    id: Adjusted
+    path: ''
+    startLine: 1294
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nRaised when a modification is made to clock time.\n"
+  example: []
+  syntax:
+    content: public event EventHandler<EventArgs> Adjusted
+    return:
+      type: System.EventHandler{System.EventArgs}
+    content.vb: Public Event Adjusted As EventHandler(Of EventArgs)
+  seealso:
+  - linkId: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+    commentId: M:TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  implements:
+  - TimeyWimey.Abstractions.IClock.Adjusted
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Abstractions.ClockBase.Now
+  commentId: P:TimeyWimey.Abstractions.ClockBase.Now
+  id: Now
+  parent: TimeyWimey.Abstractions.ClockBase
+  langs:
+  - csharp
+  - vb
+  name: Now
+  nameWithType: ClockBase.Now
+  fullName: TimeyWimey.Abstractions.ClockBase.Now
+  type: Property
+  source:
+    id: Now
+    path: ''
+    startLine: 1299
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nReturns the time as a <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public abstract DateTimeOffset Now { get; }
+    parameters: []
+    return:
+      type: System.DateTimeOffset
+    content.vb: Public MustOverride ReadOnly Property Now As DateTimeOffset
+  overload: TimeyWimey.Abstractions.ClockBase.Now*
+  implements:
+  - TimeyWimey.Abstractions.IClock.Now
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  commentId: M:TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  id: OnAdjusted
+  parent: TimeyWimey.Abstractions.ClockBase
+  langs:
+  - csharp
+  - vb
+  name: OnAdjusted()
+  nameWithType: ClockBase.OnAdjusted()
+  fullName: TimeyWimey.Abstractions.ClockBase.OnAdjusted()
+  type: Method
+  source:
+    id: OnAdjusted
+    path: ''
+    startLine: 1308
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nRaises the <xref href=\"TimeyWimey.Abstractions.ClockBase.Adjusted\" data-throw-if-not-resolved=\"false\"></xref> event.\n"
+  example: []
+  syntax:
+    content: protected void OnAdjusted()
+    content.vb: Protected Sub OnAdjusted
+  overload: TimeyWimey.Abstractions.ClockBase.OnAdjusted*
+  seealso:
+  - linkId: TimeyWimey.Abstractions.ClockBase.Adjusted
+    commentId: E:TimeyWimey.Abstractions.ClockBase.Adjusted
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: TimeyWimey.Abstractions.IClock
+  commentId: T:TimeyWimey.Abstractions.IClock
+  parent: TimeyWimey.Abstractions
+  isExternal: false
+  name: IClock
+  nameWithType: IClock
+  fullName: TimeyWimey.Abstractions.IClock
+- uid: TimeyWimey.Abstractions
+  commentId: N:TimeyWimey.Abstractions
+  isExternal: false
+  name: TimeyWimey.Abstractions
+  nameWithType: TimeyWimey.Abstractions
+  fullName: TimeyWimey.Abstractions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  commentId: M:TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  parent: TimeyWimey.Abstractions.ClockBase
+  isExternal: false
+  name: OnAdjusted()
+  nameWithType: ClockBase.OnAdjusted()
+  fullName: TimeyWimey.Abstractions.ClockBase.OnAdjusted()
+  spec.csharp:
+  - uid: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+    name: OnAdjusted
+    nameWithType: ClockBase.OnAdjusted
+    fullName: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+    name: OnAdjusted
+    nameWithType: ClockBase.OnAdjusted
+    fullName: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TimeyWimey.Abstractions.IClock.Adjusted
+  commentId: E:TimeyWimey.Abstractions.IClock.Adjusted
+  parent: TimeyWimey.Abstractions.IClock
+  isExternal: false
+  name: Adjusted
+  nameWithType: IClock.Adjusted
+  fullName: TimeyWimey.Abstractions.IClock.Adjusted
+- uid: System.EventHandler{System.EventArgs}
+  commentId: T:System.EventHandler{System.EventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<EventArgs>
+  nameWithType: EventHandler<EventArgs>
+  fullName: System.EventHandler<System.EventArgs>
+  nameWithType.vb: EventHandler(Of EventArgs)
+  fullName.vb: System.EventHandler(Of System.EventArgs)
+  name.vb: EventHandler(Of EventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TimeyWimey.Abstractions.ClockBase
+  commentId: T:TimeyWimey.Abstractions.ClockBase
+  parent: TimeyWimey.Abstractions
+  isExternal: false
+  name: ClockBase
+  nameWithType: ClockBase
+  fullName: TimeyWimey.Abstractions.ClockBase
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: TimeyWimey.Abstractions.ClockBase.Now*
+  commentId: Overload:TimeyWimey.Abstractions.ClockBase.Now
+  isExternal: false
+  name: Now
+  nameWithType: ClockBase.Now
+  fullName: TimeyWimey.Abstractions.ClockBase.Now
+- uid: TimeyWimey.Abstractions.IClock.Now
+  commentId: P:TimeyWimey.Abstractions.IClock.Now
+  parent: TimeyWimey.Abstractions.IClock
+  isExternal: false
+  name: Now
+  nameWithType: IClock.Now
+  fullName: TimeyWimey.Abstractions.IClock.Now
+- uid: TimeyWimey.Abstractions.ClockBase.Adjusted
+  commentId: E:TimeyWimey.Abstractions.ClockBase.Adjusted
+  parent: TimeyWimey.Abstractions.ClockBase
+  isExternal: false
+  name: Adjusted
+  nameWithType: ClockBase.Adjusted
+  fullName: TimeyWimey.Abstractions.ClockBase.Adjusted
+- uid: TimeyWimey.Abstractions.ClockBase.OnAdjusted*
+  commentId: Overload:TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  isExternal: false
+  name: OnAdjusted
+  nameWithType: ClockBase.OnAdjusted
+  fullName: TimeyWimey.Abstractions.ClockBase.OnAdjusted

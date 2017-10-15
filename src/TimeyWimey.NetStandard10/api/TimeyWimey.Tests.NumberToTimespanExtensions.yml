@@ -1,0 +1,999 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions
+  commentId: T:TimeyWimey.Tests.NumberToTimespanExtensions
+  id: NumberToTimespanExtensions
+  parent: TimeyWimey.Tests
+  children:
+  - TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly
+  - TimeyWimey.Tests.NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly
+  langs:
+  - csharp
+  - vb
+  name: NumberToTimespanExtensions
+  nameWithType: NumberToTimespanExtensions
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions
+  type: Class
+  source:
+    id: NumberToTimespanExtensions
+    path: ''
+    startLine: 1455
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public class NumberToTimespanExtensions
+    content.vb: Public Class NumberToTimespanExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly
+  id: IntegerToMilliseconds_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: IntegerToMilliseconds_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: IntegerToMilliseconds_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1461
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void IntegerToMilliseconds_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub IntegerToMilliseconds_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly
+  id: IntegerToSeconds_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: IntegerToSeconds_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: IntegerToSeconds_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1473
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void IntegerToSeconds_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub IntegerToSeconds_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly
+  id: IntegerToMinutes_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: IntegerToMinutes_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: IntegerToMinutes_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1485
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void IntegerToMinutes_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub IntegerToMinutes_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly
+  id: IntegerToHours_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: IntegerToHours_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: IntegerToHours_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1497
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void IntegerToHours_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub IntegerToHours_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly
+  id: IntegerToDays_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: IntegerToDays_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: IntegerToDays_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1509
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void IntegerToDays_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub IntegerToDays_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly
+  id: LongToMilliseconds_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: LongToMilliseconds_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: LongToMilliseconds_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1525
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void LongToMilliseconds_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub LongToMilliseconds_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly
+  id: LongToSeconds_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: LongToSeconds_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: LongToSeconds_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1537
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void LongToSeconds_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub LongToSeconds_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly
+  id: LongToMinutes_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: LongToMinutes_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: LongToMinutes_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1549
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void LongToMinutes_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub LongToMinutes_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly
+  id: LongToHours_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: LongToHours_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: LongToHours_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1561
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void LongToHours_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub LongToHours_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly
+  id: LongToDays_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: LongToDays_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: LongToDays_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1573
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void LongToDays_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub LongToDays_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly
+  id: DoubleToMilliseconds_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: DoubleToMilliseconds_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: DoubleToMilliseconds_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1589
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void DoubleToMilliseconds_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub DoubleToMilliseconds_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly
+  id: DoubleToSeconds_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: DoubleToSeconds_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: DoubleToSeconds_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1601
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void DoubleToSeconds_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub DoubleToSeconds_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly
+  id: DoubleToMinutes_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: DoubleToMinutes_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: DoubleToMinutes_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1613
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void DoubleToMinutes_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub DoubleToMinutes_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly
+  id: DoubleToHours_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: DoubleToHours_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: DoubleToHours_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1625
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void DoubleToHours_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub DoubleToHours_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly
+  id: DoubleToDays_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: DoubleToDays_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: DoubleToDays_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1637
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void DoubleToDays_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub DoubleToDays_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly
+  id: FloatToMilliseconds_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: FloatToMilliseconds_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: FloatToMilliseconds_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1653
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void FloatToMilliseconds_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub FloatToMilliseconds_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly
+  id: FloatToSeconds_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: FloatToSeconds_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: FloatToSeconds_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1665
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void FloatToSeconds_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub FloatToSeconds_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly
+  id: FloatToMinutes_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: FloatToMinutes_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: FloatToMinutes_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1677
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void FloatToMinutes_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub FloatToMinutes_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly
+  id: FloatToHours_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: FloatToHours_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: FloatToHours_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1689
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void FloatToHours_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub FloatToHours_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly
+  commentId: M:TimeyWimey.Tests.NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly
+  id: FloatToDays_InitialisesTimeSpanCorrectly
+  parent: TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: FloatToDays_InitialisesTimeSpanCorrectly()
+  nameWithType: NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly()
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly()
+  type: Method
+  source:
+    id: FloatToDays_InitialisesTimeSpanCorrectly
+    path: ''
+    startLine: 1701
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Tests
+  syntax:
+    content: public void FloatToDays_InitialisesTimeSpanCorrectly()
+    content.vb: Public Sub FloatToDays_InitialisesTimeSpanCorrectly
+  overload: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TimeyWimey.Tests
+  commentId: N:TimeyWimey.Tests
+  isExternal: false
+  name: TimeyWimey.Tests
+  nameWithType: TimeyWimey.Tests
+  fullName: TimeyWimey.Tests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: IntegerToMilliseconds_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: IntegerToSeconds_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: IntegerToMinutes_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: IntegerToHours_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: IntegerToDays_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: LongToMilliseconds_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: LongToSeconds_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: LongToMinutes_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: LongToHours_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: LongToDays_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: DoubleToMilliseconds_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: DoubleToSeconds_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: DoubleToMinutes_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: DoubleToHours_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: DoubleToDays_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: FloatToMilliseconds_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: FloatToSeconds_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: FloatToMinutes_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: FloatToHours_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly*
+  commentId: Overload:TimeyWimey.Tests.NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly
+  isExternal: false
+  name: FloatToDays_InitialisesTimeSpanCorrectly
+  nameWithType: NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly

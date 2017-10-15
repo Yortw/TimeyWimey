@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.Tests
+  commentId: N:TimeyWimey.Tests
+  id: TimeyWimey.Tests
+  children:
+  - TimeyWimey.Tests.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: TimeyWimey.Tests
+  nameWithType: TimeyWimey.Tests
+  fullName: TimeyWimey.Tests
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TimeyWimey.Tests.NumberToTimespanExtensions
+  commentId: T:TimeyWimey.Tests.NumberToTimespanExtensions
+  isExternal: false
+  name: NumberToTimespanExtensions
+  nameWithType: NumberToTimespanExtensions
+  fullName: TimeyWimey.Tests.NumberToTimespanExtensions

@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.Abstractions
+  commentId: N:TimeyWimey.Abstractions
+  id: TimeyWimey.Abstractions
+  children:
+  - TimeyWimey.Abstractions.CachingClock
+  - TimeyWimey.Abstractions.ClockBase
+  - TimeyWimey.Abstractions.IClock
+  - TimeyWimey.Abstractions.MockClock
+  - TimeyWimey.Abstractions.SystemClock
+  langs:
+  - csharp
+  - vb
+  name: TimeyWimey.Abstractions
+  nameWithType: TimeyWimey.Abstractions
+  fullName: TimeyWimey.Abstractions
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TimeyWimey.Abstractions.CachingClock
+  commentId: T:TimeyWimey.Abstractions.CachingClock
+  isExternal: false
+  name: CachingClock
+  nameWithType: CachingClock
+  fullName: TimeyWimey.Abstractions.CachingClock
+- uid: TimeyWimey.Abstractions.ClockBase
+  commentId: T:TimeyWimey.Abstractions.ClockBase
+  parent: TimeyWimey.Abstractions
+  isExternal: false
+  name: ClockBase
+  nameWithType: ClockBase
+  fullName: TimeyWimey.Abstractions.ClockBase
+- uid: TimeyWimey.Abstractions.IClock
+  commentId: T:TimeyWimey.Abstractions.IClock
+  parent: TimeyWimey.Abstractions
+  isExternal: false
+  name: IClock
+  nameWithType: IClock
+  fullName: TimeyWimey.Abstractions.IClock
+- uid: TimeyWimey.Abstractions.MockClock
+  commentId: T:TimeyWimey.Abstractions.MockClock
+  isExternal: false
+  name: MockClock
+  nameWithType: MockClock
+  fullName: TimeyWimey.Abstractions.MockClock
+- uid: TimeyWimey.Abstractions.SystemClock
+  commentId: T:TimeyWimey.Abstractions.SystemClock
+  parent: TimeyWimey.Abstractions
+  isExternal: false
+  name: SystemClock
+  nameWithType: SystemClock
+  fullName: TimeyWimey.Abstractions.SystemClock
+- uid: TimeyWimey.Abstractions
+  commentId: N:TimeyWimey.Abstractions
+  isExternal: false
+  name: TimeyWimey.Abstractions
+  nameWithType: TimeyWimey.Abstractions
+  fullName: TimeyWimey.Abstractions

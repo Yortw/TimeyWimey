@@ -1,0 +1,1247 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.NumberToTimespanExtensions
+  commentId: T:TimeyWimey.NumberToTimespanExtensions
+  id: NumberToTimespanExtensions
+  parent: TimeyWimey
+  children:
+  - TimeyWimey.NumberToTimespanExtensions.Days(System.Double)
+  - TimeyWimey.NumberToTimespanExtensions.Days(System.Int32)
+  - TimeyWimey.NumberToTimespanExtensions.Days(System.Int64)
+  - TimeyWimey.NumberToTimespanExtensions.Days(System.Single)
+  - TimeyWimey.NumberToTimespanExtensions.Hours(System.Double)
+  - TimeyWimey.NumberToTimespanExtensions.Hours(System.Int32)
+  - TimeyWimey.NumberToTimespanExtensions.Hours(System.Int64)
+  - TimeyWimey.NumberToTimespanExtensions.Hours(System.Single)
+  - TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Double)
+  - TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Int32)
+  - TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Int64)
+  - TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Single)
+  - TimeyWimey.NumberToTimespanExtensions.Minutes(System.Double)
+  - TimeyWimey.NumberToTimespanExtensions.Minutes(System.Int32)
+  - TimeyWimey.NumberToTimespanExtensions.Minutes(System.Int64)
+  - TimeyWimey.NumberToTimespanExtensions.Minutes(System.Single)
+  - TimeyWimey.NumberToTimespanExtensions.Seconds(System.Double)
+  - TimeyWimey.NumberToTimespanExtensions.Seconds(System.Int32)
+  - TimeyWimey.NumberToTimespanExtensions.Seconds(System.Int64)
+  - TimeyWimey.NumberToTimespanExtensions.Seconds(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: NumberToTimespanExtensions
+  nameWithType: NumberToTimespanExtensions
+  fullName: TimeyWimey.NumberToTimespanExtensions
+  type: Class
+  source:
+    id: NumberToTimespanExtensions
+    path: ''
+    startLine: 578
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nProvides extensions to numeric types (such as int, long, double) to convert to a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> value.\n"
+  example: []
+  syntax:
+    content: public static class NumberToTimespanExtensions
+    content.vb: Public Module NumberToTimespanExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Int32)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Int32)
+  id: Milliseconds(System.Int32)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Milliseconds(Int32)
+  nameWithType: NumberToTimespanExtensions.Milliseconds(Int32)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Int32)
+  type: Method
+  source:
+    id: Milliseconds
+    path: ''
+    startLine: 588
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of milliseconds.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Milliseconds(this int milliseconds)
+    parameters:
+    - id: milliseconds
+      type: System.Int32
+      description: The number of milliseconds in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Milliseconds(milliseconds As Integer) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Milliseconds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Seconds(System.Int32)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Seconds(System.Int32)
+  id: Seconds(System.Int32)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Seconds(Int32)
+  nameWithType: NumberToTimespanExtensions.Seconds(Int32)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Seconds(System.Int32)
+  type: Method
+  source:
+    id: Seconds
+    path: ''
+    startLine: 598
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of seconds.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Seconds(this int seconds)
+    parameters:
+    - id: seconds
+      type: System.Int32
+      description: The number of seconds in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Seconds(seconds As Integer) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Seconds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Minutes(System.Int32)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Minutes(System.Int32)
+  id: Minutes(System.Int32)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Minutes(Int32)
+  nameWithType: NumberToTimespanExtensions.Minutes(Int32)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Minutes(System.Int32)
+  type: Method
+  source:
+    id: Minutes
+    path: ''
+    startLine: 608
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of minutes.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Minutes(this int minutes)
+    parameters:
+    - id: minutes
+      type: System.Int32
+      description: The number of minutes in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Minutes(minutes As Integer) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Minutes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Hours(System.Int32)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Hours(System.Int32)
+  id: Hours(System.Int32)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Hours(Int32)
+  nameWithType: NumberToTimespanExtensions.Hours(Int32)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Hours(System.Int32)
+  type: Method
+  source:
+    id: Hours
+    path: ''
+    startLine: 618
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of hours.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Hours(this int hours)
+    parameters:
+    - id: hours
+      type: System.Int32
+      description: The number of hours in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Hours(hours As Integer) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Hours*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Days(System.Int32)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Days(System.Int32)
+  id: Days(System.Int32)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Days(Int32)
+  nameWithType: NumberToTimespanExtensions.Days(Int32)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Days(System.Int32)
+  type: Method
+  source:
+    id: Days
+    path: ''
+    startLine: 628
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of days.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Days(this int days)
+    parameters:
+    - id: days
+      type: System.Int32
+      description: The number of days in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Days(days As Integer) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Days*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Int64)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Int64)
+  id: Milliseconds(System.Int64)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Milliseconds(Int64)
+  nameWithType: NumberToTimespanExtensions.Milliseconds(Int64)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Int64)
+  type: Method
+  source:
+    id: Milliseconds
+    path: ''
+    startLine: 642
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of milliseconds.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Milliseconds(this long milliseconds)
+    parameters:
+    - id: milliseconds
+      type: System.Int64
+      description: The number of milliseconds in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Milliseconds(milliseconds As Long) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Milliseconds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Seconds(System.Int64)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Seconds(System.Int64)
+  id: Seconds(System.Int64)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Seconds(Int64)
+  nameWithType: NumberToTimespanExtensions.Seconds(Int64)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Seconds(System.Int64)
+  type: Method
+  source:
+    id: Seconds
+    path: ''
+    startLine: 652
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of seconds.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Seconds(this long seconds)
+    parameters:
+    - id: seconds
+      type: System.Int64
+      description: The number of seconds in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Seconds(seconds As Long) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Seconds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Minutes(System.Int64)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Minutes(System.Int64)
+  id: Minutes(System.Int64)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Minutes(Int64)
+  nameWithType: NumberToTimespanExtensions.Minutes(Int64)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Minutes(System.Int64)
+  type: Method
+  source:
+    id: Minutes
+    path: ''
+    startLine: 662
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of minutes.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Minutes(this long minutes)
+    parameters:
+    - id: minutes
+      type: System.Int64
+      description: The number of minutes in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Minutes(minutes As Long) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Minutes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Hours(System.Int64)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Hours(System.Int64)
+  id: Hours(System.Int64)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Hours(Int64)
+  nameWithType: NumberToTimespanExtensions.Hours(Int64)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Hours(System.Int64)
+  type: Method
+  source:
+    id: Hours
+    path: ''
+    startLine: 672
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of hours.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Hours(this long hours)
+    parameters:
+    - id: hours
+      type: System.Int64
+      description: The number of hours in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Hours(hours As Long) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Hours*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Days(System.Int64)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Days(System.Int64)
+  id: Days(System.Int64)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Days(Int64)
+  nameWithType: NumberToTimespanExtensions.Days(Int64)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Days(System.Int64)
+  type: Method
+  source:
+    id: Days
+    path: ''
+    startLine: 682
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of days.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Days(this long days)
+    parameters:
+    - id: days
+      type: System.Int64
+      description: The number of days in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Days(days As Long) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Days*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Double)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Double)
+  id: Milliseconds(System.Double)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Milliseconds(Double)
+  nameWithType: NumberToTimespanExtensions.Milliseconds(Double)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Double)
+  type: Method
+  source:
+    id: Milliseconds
+    path: ''
+    startLine: 696
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of milliseconds.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Milliseconds(this double milliseconds)
+    parameters:
+    - id: milliseconds
+      type: System.Double
+      description: The number of milliseconds in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Milliseconds(milliseconds As Double) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Milliseconds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Seconds(System.Double)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Seconds(System.Double)
+  id: Seconds(System.Double)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Seconds(Double)
+  nameWithType: NumberToTimespanExtensions.Seconds(Double)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Seconds(System.Double)
+  type: Method
+  source:
+    id: Seconds
+    path: ''
+    startLine: 706
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of seconds.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Seconds(this double seconds)
+    parameters:
+    - id: seconds
+      type: System.Double
+      description: The number of seconds in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Seconds(seconds As Double) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Seconds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Minutes(System.Double)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Minutes(System.Double)
+  id: Minutes(System.Double)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Minutes(Double)
+  nameWithType: NumberToTimespanExtensions.Minutes(Double)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Minutes(System.Double)
+  type: Method
+  source:
+    id: Minutes
+    path: ''
+    startLine: 716
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of minutes.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Minutes(this double minutes)
+    parameters:
+    - id: minutes
+      type: System.Double
+      description: The number of minutes in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Minutes(minutes As Double) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Minutes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Hours(System.Double)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Hours(System.Double)
+  id: Hours(System.Double)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Hours(Double)
+  nameWithType: NumberToTimespanExtensions.Hours(Double)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Hours(System.Double)
+  type: Method
+  source:
+    id: Hours
+    path: ''
+    startLine: 726
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of hours.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Hours(this double hours)
+    parameters:
+    - id: hours
+      type: System.Double
+      description: The number of hours in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Hours(hours As Double) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Hours*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Days(System.Double)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Days(System.Double)
+  id: Days(System.Double)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Days(Double)
+  nameWithType: NumberToTimespanExtensions.Days(Double)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Days(System.Double)
+  type: Method
+  source:
+    id: Days
+    path: ''
+    startLine: 736
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of days.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Days(this double days)
+    parameters:
+    - id: days
+      type: System.Double
+      description: The number of days in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Days(days As Double) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Days*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Single)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Single)
+  id: Milliseconds(System.Single)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Milliseconds(Single)
+  nameWithType: NumberToTimespanExtensions.Milliseconds(Single)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Milliseconds(System.Single)
+  type: Method
+  source:
+    id: Milliseconds
+    path: ''
+    startLine: 750
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of milliseconds.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Milliseconds(this float milliseconds)
+    parameters:
+    - id: milliseconds
+      type: System.Single
+      description: The number of milliseconds in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Milliseconds(milliseconds As Single) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Milliseconds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Seconds(System.Single)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Seconds(System.Single)
+  id: Seconds(System.Single)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Seconds(Single)
+  nameWithType: NumberToTimespanExtensions.Seconds(Single)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Seconds(System.Single)
+  type: Method
+  source:
+    id: Seconds
+    path: ''
+    startLine: 760
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of seconds.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Seconds(this float seconds)
+    parameters:
+    - id: seconds
+      type: System.Single
+      description: The number of seconds in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Seconds(seconds As Single) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Seconds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Minutes(System.Single)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Minutes(System.Single)
+  id: Minutes(System.Single)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Minutes(Single)
+  nameWithType: NumberToTimespanExtensions.Minutes(Single)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Minutes(System.Single)
+  type: Method
+  source:
+    id: Minutes
+    path: ''
+    startLine: 770
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of minutes.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Minutes(this float minutes)
+    parameters:
+    - id: minutes
+      type: System.Single
+      description: The number of minutes in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Minutes(minutes As Single) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Minutes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Hours(System.Single)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Hours(System.Single)
+  id: Hours(System.Single)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Hours(Single)
+  nameWithType: NumberToTimespanExtensions.Hours(Single)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Hours(System.Single)
+  type: Method
+  source:
+    id: Hours
+    path: ''
+    startLine: 780
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of hours.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Hours(this float hours)
+    parameters:
+    - id: hours
+      type: System.Single
+      description: The number of hours in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Hours(hours As Single) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Hours*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.NumberToTimespanExtensions.Days(System.Single)
+  commentId: M:TimeyWimey.NumberToTimespanExtensions.Days(System.Single)
+  id: Days(System.Single)
+  isExtensionMethod: true
+  parent: TimeyWimey.NumberToTimespanExtensions
+  langs:
+  - csharp
+  - vb
+  name: Days(Single)
+  nameWithType: NumberToTimespanExtensions.Days(Single)
+  fullName: TimeyWimey.NumberToTimespanExtensions.Days(System.Single)
+  type: Method
+  source:
+    id: Days
+    path: ''
+    startLine: 790
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing the specified number of days.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Days(this float days)
+    parameters:
+    - id: days
+      type: System.Single
+      description: The number of days in the time span.
+    return:
+      type: System.TimeSpan
+      description: A <xref href="System.TimeSpan" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Days(days As Single) As TimeSpan
+  overload: TimeyWimey.NumberToTimespanExtensions.Days*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: TimeyWimey
+  commentId: N:TimeyWimey
+  isExternal: false
+  name: TimeyWimey
+  nameWithType: TimeyWimey
+  fullName: TimeyWimey
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TimeyWimey.NumberToTimespanExtensions.Milliseconds*
+  commentId: Overload:TimeyWimey.NumberToTimespanExtensions.Milliseconds
+  isExternal: false
+  name: Milliseconds
+  nameWithType: NumberToTimespanExtensions.Milliseconds
+  fullName: TimeyWimey.NumberToTimespanExtensions.Milliseconds
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TimeyWimey.NumberToTimespanExtensions.Seconds*
+  commentId: Overload:TimeyWimey.NumberToTimespanExtensions.Seconds
+  isExternal: false
+  name: Seconds
+  nameWithType: NumberToTimespanExtensions.Seconds
+  fullName: TimeyWimey.NumberToTimespanExtensions.Seconds
+- uid: TimeyWimey.NumberToTimespanExtensions.Minutes*
+  commentId: Overload:TimeyWimey.NumberToTimespanExtensions.Minutes
+  isExternal: false
+  name: Minutes
+  nameWithType: NumberToTimespanExtensions.Minutes
+  fullName: TimeyWimey.NumberToTimespanExtensions.Minutes
+- uid: TimeyWimey.NumberToTimespanExtensions.Hours*
+  commentId: Overload:TimeyWimey.NumberToTimespanExtensions.Hours
+  isExternal: false
+  name: Hours
+  nameWithType: NumberToTimespanExtensions.Hours
+  fullName: TimeyWimey.NumberToTimespanExtensions.Hours
+- uid: TimeyWimey.NumberToTimespanExtensions.Days*
+  commentId: Overload:TimeyWimey.NumberToTimespanExtensions.Days
+  isExternal: false
+  name: Days
+  nameWithType: NumberToTimespanExtensions.Days
+  fullName: TimeyWimey.NumberToTimespanExtensions.Days
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

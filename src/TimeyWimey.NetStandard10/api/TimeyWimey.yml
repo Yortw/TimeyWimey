@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey
+  commentId: N:TimeyWimey
+  id: TimeyWimey
+  children:
+  - TimeyWimey.DateTimeExtensions
+  - TimeyWimey.DateTimeOffsetExtensions
+  - TimeyWimey.DateTimeRange
+  - TimeyWimey.NumberToTimespanExtensions
+  - TimeyWimey.TimeSpans
+  - TimeyWimey.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: TimeyWimey
+  nameWithType: TimeyWimey
+  fullName: TimeyWimey
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TimeyWimey.DateTimeExtensions
+  commentId: T:TimeyWimey.DateTimeExtensions
+  isExternal: false
+  name: DateTimeExtensions
+  nameWithType: DateTimeExtensions
+  fullName: TimeyWimey.DateTimeExtensions
+- uid: TimeyWimey.DateTimeOffsetExtensions
+  commentId: T:TimeyWimey.DateTimeOffsetExtensions
+  isExternal: false
+  name: DateTimeOffsetExtensions
+  nameWithType: DateTimeOffsetExtensions
+  fullName: TimeyWimey.DateTimeOffsetExtensions
+- uid: TimeyWimey.DateTimeRange
+  commentId: T:TimeyWimey.DateTimeRange
+  parent: TimeyWimey
+  isExternal: false
+  name: DateTimeRange
+  nameWithType: DateTimeRange
+  fullName: TimeyWimey.DateTimeRange
+- uid: TimeyWimey.NumberToTimespanExtensions
+  commentId: T:TimeyWimey.NumberToTimespanExtensions
+  isExternal: false
+  name: NumberToTimespanExtensions
+  nameWithType: NumberToTimespanExtensions
+  fullName: TimeyWimey.NumberToTimespanExtensions
+- uid: TimeyWimey.TimeSpans
+  commentId: T:TimeyWimey.TimeSpans
+  isExternal: false
+  name: TimeSpans
+  nameWithType: TimeSpans
+  fullName: TimeyWimey.TimeSpans
+- uid: TimeyWimey.UnixTime
+  commentId: T:TimeyWimey.UnixTime
+  isExternal: false
+  name: UnixTime
+  nameWithType: UnixTime
+  fullName: TimeyWimey.UnixTime
+- uid: TimeyWimey
+  commentId: N:TimeyWimey
+  isExternal: false
+  name: TimeyWimey
+  nameWithType: TimeyWimey
+  fullName: TimeyWimey

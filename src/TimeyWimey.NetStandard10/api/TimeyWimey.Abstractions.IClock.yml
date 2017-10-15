@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.Abstractions.IClock
+  commentId: T:TimeyWimey.Abstractions.IClock
+  id: IClock
+  parent: TimeyWimey.Abstractions
+  children:
+  - TimeyWimey.Abstractions.IClock.Adjusted
+  - TimeyWimey.Abstractions.IClock.Now
+  langs:
+  - csharp
+  - vb
+  name: IClock
+  nameWithType: IClock
+  fullName: TimeyWimey.Abstractions.IClock
+  type: Interface
+  source:
+    id: IClock
+    path: ''
+    startLine: 1329
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nInterface for components that can return the &apos;current time&apos;. \n"
+  remarks: "\n<p>By using an abstraction rather than directly accessing a method like <xref href=\"System.DateTime.Now\" data-throw-if-not-resolved=\"false\"></xref> you can better implement date/time based tests. \nYou can also potentially change implementations between a regular system clock, an NTP adjusted, a clock with a manual offset or a clock reduces allocations when the time is requested (see CachingClock).</p>\n"
+  example: []
+  syntax:
+    content: public interface IClock
+    content.vb: Public Interface IClock
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TimeyWimey.Abstractions.IClock.Adjusted
+  commentId: E:TimeyWimey.Abstractions.IClock.Adjusted
+  id: Adjusted
+  parent: TimeyWimey.Abstractions.IClock
+  langs:
+  - csharp
+  - vb
+  name: Adjusted
+  nameWithType: IClock.Adjusted
+  fullName: TimeyWimey.Abstractions.IClock.Adjusted
+  type: Event
+  source:
+    id: Adjusted
+    path: ''
+    startLine: 1334
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nOccurs when the clock has been adjusted or signficantly altered, such as when the user sets the time or the time is synced to a server, but not on regular &apos;ticks&apos; of the clock.\n"
+  example: []
+  syntax:
+    content: event EventHandler<EventArgs> Adjusted
+    return:
+      type: System.EventHandler{System.EventArgs}
+    content.vb: Event Adjusted As EventHandler(Of EventArgs)
+- uid: TimeyWimey.Abstractions.IClock.Now
+  commentId: P:TimeyWimey.Abstractions.IClock.Now
+  id: Now
+  parent: TimeyWimey.Abstractions.IClock
+  langs:
+  - csharp
+  - vb
+  name: Now
+  nameWithType: IClock.Now
+  fullName: TimeyWimey.Abstractions.IClock.Now
+  type: Property
+  source:
+    id: Now
+    path: ''
+    startLine: 1339
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nReturns the current time as a <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: DateTimeOffset Now { get; }
+    parameters: []
+    return:
+      type: System.DateTimeOffset
+    content.vb: ReadOnly Property Now As DateTimeOffset
+  overload: TimeyWimey.Abstractions.IClock.Now*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: System.DateTime.Now
+  commentId: P:System.DateTime.Now
+- uid: TimeyWimey.Abstractions
+  commentId: N:TimeyWimey.Abstractions
+  isExternal: false
+  name: TimeyWimey.Abstractions
+  nameWithType: TimeyWimey.Abstractions
+  fullName: TimeyWimey.Abstractions
+- uid: System.EventHandler{System.EventArgs}
+  commentId: T:System.EventHandler{System.EventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<EventArgs>
+  nameWithType: EventHandler<EventArgs>
+  fullName: System.EventHandler<System.EventArgs>
+  nameWithType.vb: EventHandler(Of EventArgs)
+  fullName.vb: System.EventHandler(Of System.EventArgs)
+  name.vb: EventHandler(Of EventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: TimeyWimey.Abstractions.IClock.Now*
+  commentId: Overload:TimeyWimey.Abstractions.IClock.Now
+  isExternal: false
+  name: Now
+  nameWithType: IClock.Now
+  fullName: TimeyWimey.Abstractions.IClock.Now

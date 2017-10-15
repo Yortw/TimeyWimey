@@ -1,0 +1,1981 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.TimeSpans
+  commentId: T:TimeyWimey.TimeSpans
+  id: TimeSpans
+  parent: TimeyWimey
+  children:
+  - TimeyWimey.TimeSpans.EightHours
+  - TimeyWimey.TimeSpans.EightMilliseconds
+  - TimeyWimey.TimeSpans.FifteenMilliseconds
+  - TimeyWimey.TimeSpans.FifteenMinutes
+  - TimeyWimey.TimeSpans.FifteenSeconds
+  - TimeyWimey.TimeSpans.FiveDays
+  - TimeyWimey.TimeSpans.FiveHours
+  - TimeyWimey.TimeSpans.FiveHundredMilliseconds
+  - TimeyWimey.TimeSpans.FiveMilliseconds
+  - TimeyWimey.TimeSpans.FiveMinutes
+  - TimeyWimey.TimeSpans.FiveSeconds
+  - TimeyWimey.TimeSpans.FortyFiveMinutes
+  - TimeyWimey.TimeSpans.FortyFiveSeconds
+  - TimeyWimey.TimeSpans.FourteenDays
+  - TimeyWimey.TimeSpans.NinetyDays
+  - TimeyWimey.TimeSpans.OneDay
+  - TimeyWimey.TimeSpans.OneHour
+  - TimeyWimey.TimeSpans.OneHundredAndTwentyDays
+  - TimeyWimey.TimeSpans.OneHundredMilliseconds
+  - TimeyWimey.TimeSpans.OneMillisecond
+  - TimeyWimey.TimeSpans.OneMinute
+  - TimeyWimey.TimeSpans.OneSecond
+  - TimeyWimey.TimeSpans.SevenDays
+  - TimeyWimey.TimeSpans.SixteenMilliseconds
+  - TimeyWimey.TimeSpans.SixtyDays
+  - TimeyWimey.TimeSpans.TenHours
+  - TimeyWimey.TimeSpans.TenMilliseconds
+  - TimeyWimey.TimeSpans.TenMinutes
+  - TimeyWimey.TimeSpans.TenSeconds
+  - TimeyWimey.TimeSpans.ThirtyDays
+  - TimeyWimey.TimeSpans.ThirtyMinutes
+  - TimeyWimey.TimeSpans.ThirtyOneDays
+  - TimeyWimey.TimeSpans.ThirtySeconds
+  - TimeyWimey.TimeSpans.ThreeDays
+  - TimeyWimey.TimeSpans.ThreeHours
+  - TimeyWimey.TimeSpans.ThreeHundredAndSixtyFiveDays
+  - TimeyWimey.TimeSpans.ThreeMinutes
+  - TimeyWimey.TimeSpans.ThreeSeconds
+  - TimeyWimey.TimeSpans.TwelveHours
+  - TimeyWimey.TimeSpans.TwentyFourHours
+  - TimeyWimey.TimeSpans.TwentyMilliseconds
+  - TimeyWimey.TimeSpans.TwentyMinutes
+  - TimeyWimey.TimeSpans.TwentySeconds
+  - TimeyWimey.TimeSpans.TwoDays
+  - TimeyWimey.TimeSpans.TwoHours
+  - TimeyWimey.TimeSpans.TwoHundredAndFiftyMilliseconds
+  - TimeyWimey.TimeSpans.TwoMinutes
+  - TimeyWimey.TimeSpans.TwoSeconds
+  langs:
+  - csharp
+  - vb
+  name: TimeSpans
+  nameWithType: TimeSpans
+  fullName: TimeyWimey.TimeSpans
+  type: Class
+  source:
+    id: TimeSpans
+    path: ''
+    startLine: 810
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nProvides access common time spans. Each time span is a single cached instance, reducing allocations.\n"
+  example: []
+  syntax:
+    content: public static class TimeSpans
+    content.vb: Public Module TimeSpans
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TimeyWimey.TimeSpans.OneMillisecond
+  commentId: F:TimeyWimey.TimeSpans.OneMillisecond
+  id: OneMillisecond
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: OneMillisecond
+  nameWithType: TimeSpans.OneMillisecond
+  fullName: TimeyWimey.TimeSpans.OneMillisecond
+  type: Field
+  source:
+    id: OneMillisecond
+    path: ''
+    startLine: 819
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing a single millsecond.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan OneMillisecond
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly OneMillisecond As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FiveMilliseconds
+  commentId: F:TimeyWimey.TimeSpans.FiveMilliseconds
+  id: FiveMilliseconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FiveMilliseconds
+  nameWithType: TimeSpans.FiveMilliseconds
+  fullName: TimeyWimey.TimeSpans.FiveMilliseconds
+  type: Field
+  source:
+    id: FiveMilliseconds
+    path: ''
+    startLine: 824
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing five millseconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FiveMilliseconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FiveMilliseconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.EightMilliseconds
+  commentId: F:TimeyWimey.TimeSpans.EightMilliseconds
+  id: EightMilliseconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: EightMilliseconds
+  nameWithType: TimeSpans.EightMilliseconds
+  fullName: TimeyWimey.TimeSpans.EightMilliseconds
+  type: Field
+  source:
+    id: EightMilliseconds
+    path: ''
+    startLine: 829
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing eight millseconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan EightMilliseconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly EightMilliseconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TenMilliseconds
+  commentId: F:TimeyWimey.TimeSpans.TenMilliseconds
+  id: TenMilliseconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TenMilliseconds
+  nameWithType: TimeSpans.TenMilliseconds
+  fullName: TimeyWimey.TimeSpans.TenMilliseconds
+  type: Field
+  source:
+    id: TenMilliseconds
+    path: ''
+    startLine: 834
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing ten millseconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TenMilliseconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TenMilliseconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FifteenMilliseconds
+  commentId: F:TimeyWimey.TimeSpans.FifteenMilliseconds
+  id: FifteenMilliseconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FifteenMilliseconds
+  nameWithType: TimeSpans.FifteenMilliseconds
+  fullName: TimeyWimey.TimeSpans.FifteenMilliseconds
+  type: Field
+  source:
+    id: FifteenMilliseconds
+    path: ''
+    startLine: 839
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 15 millseconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FifteenMilliseconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FifteenMilliseconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.SixteenMilliseconds
+  commentId: F:TimeyWimey.TimeSpans.SixteenMilliseconds
+  id: SixteenMilliseconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: SixteenMilliseconds
+  nameWithType: TimeSpans.SixteenMilliseconds
+  fullName: TimeyWimey.TimeSpans.SixteenMilliseconds
+  type: Field
+  source:
+    id: SixteenMilliseconds
+    path: ''
+    startLine: 844
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 16 millseconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan SixteenMilliseconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly SixteenMilliseconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TwentyMilliseconds
+  commentId: F:TimeyWimey.TimeSpans.TwentyMilliseconds
+  id: TwentyMilliseconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TwentyMilliseconds
+  nameWithType: TimeSpans.TwentyMilliseconds
+  fullName: TimeyWimey.TimeSpans.TwentyMilliseconds
+  type: Field
+  source:
+    id: TwentyMilliseconds
+    path: ''
+    startLine: 849
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 20 millseconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TwentyMilliseconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TwentyMilliseconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.OneHundredMilliseconds
+  commentId: F:TimeyWimey.TimeSpans.OneHundredMilliseconds
+  id: OneHundredMilliseconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: OneHundredMilliseconds
+  nameWithType: TimeSpans.OneHundredMilliseconds
+  fullName: TimeyWimey.TimeSpans.OneHundredMilliseconds
+  type: Field
+  source:
+    id: OneHundredMilliseconds
+    path: ''
+    startLine: 854
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 100 millseconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan OneHundredMilliseconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly OneHundredMilliseconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TwoHundredAndFiftyMilliseconds
+  commentId: F:TimeyWimey.TimeSpans.TwoHundredAndFiftyMilliseconds
+  id: TwoHundredAndFiftyMilliseconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TwoHundredAndFiftyMilliseconds
+  nameWithType: TimeSpans.TwoHundredAndFiftyMilliseconds
+  fullName: TimeyWimey.TimeSpans.TwoHundredAndFiftyMilliseconds
+  type: Field
+  source:
+    id: TwoHundredAndFiftyMilliseconds
+    path: ''
+    startLine: 859
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 250 millseconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TwoHundredAndFiftyMilliseconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TwoHundredAndFiftyMilliseconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FiveHundredMilliseconds
+  commentId: F:TimeyWimey.TimeSpans.FiveHundredMilliseconds
+  id: FiveHundredMilliseconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FiveHundredMilliseconds
+  nameWithType: TimeSpans.FiveHundredMilliseconds
+  fullName: TimeyWimey.TimeSpans.FiveHundredMilliseconds
+  type: Field
+  source:
+    id: FiveHundredMilliseconds
+    path: ''
+    startLine: 864
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 500 millseconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FiveHundredMilliseconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FiveHundredMilliseconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.OneSecond
+  commentId: F:TimeyWimey.TimeSpans.OneSecond
+  id: OneSecond
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: OneSecond
+  nameWithType: TimeSpans.OneSecond
+  fullName: TimeyWimey.TimeSpans.OneSecond
+  type: Field
+  source:
+    id: OneSecond
+    path: ''
+    startLine: 873
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing a single second.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan OneSecond
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly OneSecond As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TwoSeconds
+  commentId: F:TimeyWimey.TimeSpans.TwoSeconds
+  id: TwoSeconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TwoSeconds
+  nameWithType: TimeSpans.TwoSeconds
+  fullName: TimeyWimey.TimeSpans.TwoSeconds
+  type: Field
+  source:
+    id: TwoSeconds
+    path: ''
+    startLine: 878
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing two seconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TwoSeconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TwoSeconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.ThreeSeconds
+  commentId: F:TimeyWimey.TimeSpans.ThreeSeconds
+  id: ThreeSeconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: ThreeSeconds
+  nameWithType: TimeSpans.ThreeSeconds
+  fullName: TimeyWimey.TimeSpans.ThreeSeconds
+  type: Field
+  source:
+    id: ThreeSeconds
+    path: ''
+    startLine: 883
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing three seconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan ThreeSeconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly ThreeSeconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FiveSeconds
+  commentId: F:TimeyWimey.TimeSpans.FiveSeconds
+  id: FiveSeconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FiveSeconds
+  nameWithType: TimeSpans.FiveSeconds
+  fullName: TimeyWimey.TimeSpans.FiveSeconds
+  type: Field
+  source:
+    id: FiveSeconds
+    path: ''
+    startLine: 888
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing five seconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FiveSeconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FiveSeconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TenSeconds
+  commentId: F:TimeyWimey.TimeSpans.TenSeconds
+  id: TenSeconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TenSeconds
+  nameWithType: TimeSpans.TenSeconds
+  fullName: TimeyWimey.TimeSpans.TenSeconds
+  type: Field
+  source:
+    id: TenSeconds
+    path: ''
+    startLine: 893
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 10 seconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TenSeconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TenSeconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FifteenSeconds
+  commentId: F:TimeyWimey.TimeSpans.FifteenSeconds
+  id: FifteenSeconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FifteenSeconds
+  nameWithType: TimeSpans.FifteenSeconds
+  fullName: TimeyWimey.TimeSpans.FifteenSeconds
+  type: Field
+  source:
+    id: FifteenSeconds
+    path: ''
+    startLine: 898
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 15 seconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FifteenSeconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FifteenSeconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TwentySeconds
+  commentId: F:TimeyWimey.TimeSpans.TwentySeconds
+  id: TwentySeconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TwentySeconds
+  nameWithType: TimeSpans.TwentySeconds
+  fullName: TimeyWimey.TimeSpans.TwentySeconds
+  type: Field
+  source:
+    id: TwentySeconds
+    path: ''
+    startLine: 903
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 20 seconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TwentySeconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TwentySeconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.ThirtySeconds
+  commentId: F:TimeyWimey.TimeSpans.ThirtySeconds
+  id: ThirtySeconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: ThirtySeconds
+  nameWithType: TimeSpans.ThirtySeconds
+  fullName: TimeyWimey.TimeSpans.ThirtySeconds
+  type: Field
+  source:
+    id: ThirtySeconds
+    path: ''
+    startLine: 908
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 30 seconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan ThirtySeconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly ThirtySeconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FortyFiveSeconds
+  commentId: F:TimeyWimey.TimeSpans.FortyFiveSeconds
+  id: FortyFiveSeconds
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FortyFiveSeconds
+  nameWithType: TimeSpans.FortyFiveSeconds
+  fullName: TimeyWimey.TimeSpans.FortyFiveSeconds
+  type: Field
+  source:
+    id: FortyFiveSeconds
+    path: ''
+    startLine: 913
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 45 seconds.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FortyFiveSeconds
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FortyFiveSeconds As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.OneMinute
+  commentId: F:TimeyWimey.TimeSpans.OneMinute
+  id: OneMinute
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: OneMinute
+  nameWithType: TimeSpans.OneMinute
+  fullName: TimeyWimey.TimeSpans.OneMinute
+  type: Field
+  source:
+    id: OneMinute
+    path: ''
+    startLine: 922
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing a single minute.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan OneMinute
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly OneMinute As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TwoMinutes
+  commentId: F:TimeyWimey.TimeSpans.TwoMinutes
+  id: TwoMinutes
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TwoMinutes
+  nameWithType: TimeSpans.TwoMinutes
+  fullName: TimeyWimey.TimeSpans.TwoMinutes
+  type: Field
+  source:
+    id: TwoMinutes
+    path: ''
+    startLine: 927
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing two minutes.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TwoMinutes
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TwoMinutes As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.ThreeMinutes
+  commentId: F:TimeyWimey.TimeSpans.ThreeMinutes
+  id: ThreeMinutes
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: ThreeMinutes
+  nameWithType: TimeSpans.ThreeMinutes
+  fullName: TimeyWimey.TimeSpans.ThreeMinutes
+  type: Field
+  source:
+    id: ThreeMinutes
+    path: ''
+    startLine: 932
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing three minutes.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan ThreeMinutes
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly ThreeMinutes As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FiveMinutes
+  commentId: F:TimeyWimey.TimeSpans.FiveMinutes
+  id: FiveMinutes
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FiveMinutes
+  nameWithType: TimeSpans.FiveMinutes
+  fullName: TimeyWimey.TimeSpans.FiveMinutes
+  type: Field
+  source:
+    id: FiveMinutes
+    path: ''
+    startLine: 937
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing five minutes.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FiveMinutes
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FiveMinutes As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TenMinutes
+  commentId: F:TimeyWimey.TimeSpans.TenMinutes
+  id: TenMinutes
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TenMinutes
+  nameWithType: TimeSpans.TenMinutes
+  fullName: TimeyWimey.TimeSpans.TenMinutes
+  type: Field
+  source:
+    id: TenMinutes
+    path: ''
+    startLine: 942
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 10 minutes.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TenMinutes
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TenMinutes As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FifteenMinutes
+  commentId: F:TimeyWimey.TimeSpans.FifteenMinutes
+  id: FifteenMinutes
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FifteenMinutes
+  nameWithType: TimeSpans.FifteenMinutes
+  fullName: TimeyWimey.TimeSpans.FifteenMinutes
+  type: Field
+  source:
+    id: FifteenMinutes
+    path: ''
+    startLine: 947
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 15 minutes.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FifteenMinutes
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FifteenMinutes As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TwentyMinutes
+  commentId: F:TimeyWimey.TimeSpans.TwentyMinutes
+  id: TwentyMinutes
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TwentyMinutes
+  nameWithType: TimeSpans.TwentyMinutes
+  fullName: TimeyWimey.TimeSpans.TwentyMinutes
+  type: Field
+  source:
+    id: TwentyMinutes
+    path: ''
+    startLine: 952
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 20 minutes.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TwentyMinutes
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TwentyMinutes As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.ThirtyMinutes
+  commentId: F:TimeyWimey.TimeSpans.ThirtyMinutes
+  id: ThirtyMinutes
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: ThirtyMinutes
+  nameWithType: TimeSpans.ThirtyMinutes
+  fullName: TimeyWimey.TimeSpans.ThirtyMinutes
+  type: Field
+  source:
+    id: ThirtyMinutes
+    path: ''
+    startLine: 957
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 30 minutes.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan ThirtyMinutes
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly ThirtyMinutes As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FortyFiveMinutes
+  commentId: F:TimeyWimey.TimeSpans.FortyFiveMinutes
+  id: FortyFiveMinutes
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FortyFiveMinutes
+  nameWithType: TimeSpans.FortyFiveMinutes
+  fullName: TimeyWimey.TimeSpans.FortyFiveMinutes
+  type: Field
+  source:
+    id: FortyFiveMinutes
+    path: ''
+    startLine: 962
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 45 minutes.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FortyFiveMinutes
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FortyFiveMinutes As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.OneHour
+  commentId: F:TimeyWimey.TimeSpans.OneHour
+  id: OneHour
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: OneHour
+  nameWithType: TimeSpans.OneHour
+  fullName: TimeyWimey.TimeSpans.OneHour
+  type: Field
+  source:
+    id: OneHour
+    path: ''
+    startLine: 971
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing a single hour.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan OneHour
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly OneHour As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TwoHours
+  commentId: F:TimeyWimey.TimeSpans.TwoHours
+  id: TwoHours
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TwoHours
+  nameWithType: TimeSpans.TwoHours
+  fullName: TimeyWimey.TimeSpans.TwoHours
+  type: Field
+  source:
+    id: TwoHours
+    path: ''
+    startLine: 976
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing two hours.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TwoHours
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TwoHours As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.ThreeHours
+  commentId: F:TimeyWimey.TimeSpans.ThreeHours
+  id: ThreeHours
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: ThreeHours
+  nameWithType: TimeSpans.ThreeHours
+  fullName: TimeyWimey.TimeSpans.ThreeHours
+  type: Field
+  source:
+    id: ThreeHours
+    path: ''
+    startLine: 981
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing three hours.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan ThreeHours
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly ThreeHours As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FiveHours
+  commentId: F:TimeyWimey.TimeSpans.FiveHours
+  id: FiveHours
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FiveHours
+  nameWithType: TimeSpans.FiveHours
+  fullName: TimeyWimey.TimeSpans.FiveHours
+  type: Field
+  source:
+    id: FiveHours
+    path: ''
+    startLine: 986
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing five hours.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FiveHours
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FiveHours As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.EightHours
+  commentId: F:TimeyWimey.TimeSpans.EightHours
+  id: EightHours
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: EightHours
+  nameWithType: TimeSpans.EightHours
+  fullName: TimeyWimey.TimeSpans.EightHours
+  type: Field
+  source:
+    id: EightHours
+    path: ''
+    startLine: 991
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing eight hours.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan EightHours
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly EightHours As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TenHours
+  commentId: F:TimeyWimey.TimeSpans.TenHours
+  id: TenHours
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TenHours
+  nameWithType: TimeSpans.TenHours
+  fullName: TimeyWimey.TimeSpans.TenHours
+  type: Field
+  source:
+    id: TenHours
+    path: ''
+    startLine: 996
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 10 hours.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TenHours
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TenHours As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TwelveHours
+  commentId: F:TimeyWimey.TimeSpans.TwelveHours
+  id: TwelveHours
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TwelveHours
+  nameWithType: TimeSpans.TwelveHours
+  fullName: TimeyWimey.TimeSpans.TwelveHours
+  type: Field
+  source:
+    id: TwelveHours
+    path: ''
+    startLine: 1001
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 12 hours.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TwelveHours
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TwelveHours As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TwentyFourHours
+  commentId: F:TimeyWimey.TimeSpans.TwentyFourHours
+  id: TwentyFourHours
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TwentyFourHours
+  nameWithType: TimeSpans.TwentyFourHours
+  fullName: TimeyWimey.TimeSpans.TwentyFourHours
+  type: Field
+  source:
+    id: TwentyFourHours
+    path: ''
+    startLine: 1006
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 24 hours.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TwentyFourHours
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TwentyFourHours As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.OneDay
+  commentId: F:TimeyWimey.TimeSpans.OneDay
+  id: OneDay
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: OneDay
+  nameWithType: TimeSpans.OneDay
+  fullName: TimeyWimey.TimeSpans.OneDay
+  type: Field
+  source:
+    id: OneDay
+    path: ''
+    startLine: 1015
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing a single day.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan OneDay
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly OneDay As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.TwoDays
+  commentId: F:TimeyWimey.TimeSpans.TwoDays
+  id: TwoDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: TwoDays
+  nameWithType: TimeSpans.TwoDays
+  fullName: TimeyWimey.TimeSpans.TwoDays
+  type: Field
+  source:
+    id: TwoDays
+    path: ''
+    startLine: 1020
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing two days.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan TwoDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly TwoDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.ThreeDays
+  commentId: F:TimeyWimey.TimeSpans.ThreeDays
+  id: ThreeDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: ThreeDays
+  nameWithType: TimeSpans.ThreeDays
+  fullName: TimeyWimey.TimeSpans.ThreeDays
+  type: Field
+  source:
+    id: ThreeDays
+    path: ''
+    startLine: 1025
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing three days.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan ThreeDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly ThreeDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FiveDays
+  commentId: F:TimeyWimey.TimeSpans.FiveDays
+  id: FiveDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FiveDays
+  nameWithType: TimeSpans.FiveDays
+  fullName: TimeyWimey.TimeSpans.FiveDays
+  type: Field
+  source:
+    id: FiveDays
+    path: ''
+    startLine: 1030
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing five days.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FiveDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FiveDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.SevenDays
+  commentId: F:TimeyWimey.TimeSpans.SevenDays
+  id: SevenDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: SevenDays
+  nameWithType: TimeSpans.SevenDays
+  fullName: TimeyWimey.TimeSpans.SevenDays
+  type: Field
+  source:
+    id: SevenDays
+    path: ''
+    startLine: 1035
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing seven days.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan SevenDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly SevenDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.FourteenDays
+  commentId: F:TimeyWimey.TimeSpans.FourteenDays
+  id: FourteenDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: FourteenDays
+  nameWithType: TimeSpans.FourteenDays
+  fullName: TimeyWimey.TimeSpans.FourteenDays
+  type: Field
+  source:
+    id: FourteenDays
+    path: ''
+    startLine: 1040
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 14 hours.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan FourteenDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly FourteenDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.ThirtyDays
+  commentId: F:TimeyWimey.TimeSpans.ThirtyDays
+  id: ThirtyDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: ThirtyDays
+  nameWithType: TimeSpans.ThirtyDays
+  fullName: TimeyWimey.TimeSpans.ThirtyDays
+  type: Field
+  source:
+    id: ThirtyDays
+    path: ''
+    startLine: 1045
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 30 hours.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan ThirtyDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly ThirtyDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.ThirtyOneDays
+  commentId: F:TimeyWimey.TimeSpans.ThirtyOneDays
+  id: ThirtyOneDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: ThirtyOneDays
+  nameWithType: TimeSpans.ThirtyOneDays
+  fullName: TimeyWimey.TimeSpans.ThirtyOneDays
+  type: Field
+  source:
+    id: ThirtyOneDays
+    path: ''
+    startLine: 1050
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 31 days.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan ThirtyOneDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly ThirtyOneDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.SixtyDays
+  commentId: F:TimeyWimey.TimeSpans.SixtyDays
+  id: SixtyDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: SixtyDays
+  nameWithType: TimeSpans.SixtyDays
+  fullName: TimeyWimey.TimeSpans.SixtyDays
+  type: Field
+  source:
+    id: SixtyDays
+    path: ''
+    startLine: 1055
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 60 days.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan SixtyDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly SixtyDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.NinetyDays
+  commentId: F:TimeyWimey.TimeSpans.NinetyDays
+  id: NinetyDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: NinetyDays
+  nameWithType: TimeSpans.NinetyDays
+  fullName: TimeyWimey.TimeSpans.NinetyDays
+  type: Field
+  source:
+    id: NinetyDays
+    path: ''
+    startLine: 1060
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 90 days.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan NinetyDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly NinetyDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.OneHundredAndTwentyDays
+  commentId: F:TimeyWimey.TimeSpans.OneHundredAndTwentyDays
+  id: OneHundredAndTwentyDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: OneHundredAndTwentyDays
+  nameWithType: TimeSpans.OneHundredAndTwentyDays
+  fullName: TimeyWimey.TimeSpans.OneHundredAndTwentyDays
+  type: Field
+  source:
+    id: OneHundredAndTwentyDays
+    path: ''
+    startLine: 1065
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 120 days.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan OneHundredAndTwentyDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly OneHundredAndTwentyDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.TimeSpans.ThreeHundredAndSixtyFiveDays
+  commentId: F:TimeyWimey.TimeSpans.ThreeHundredAndSixtyFiveDays
+  id: ThreeHundredAndSixtyFiveDays
+  parent: TimeyWimey.TimeSpans
+  langs:
+  - csharp
+  - vb
+  name: ThreeHundredAndSixtyFiveDays
+  nameWithType: TimeSpans.ThreeHundredAndSixtyFiveDays
+  fullName: TimeyWimey.TimeSpans.ThreeHundredAndSixtyFiveDays
+  type: Field
+  source:
+    id: ThreeHundredAndSixtyFiveDays
+    path: ''
+    startLine: 1070
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> representing 365 days.\n"
+  example: []
+  syntax:
+    content: public static readonly TimeSpan ThreeHundredAndSixtyFiveDays
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly ThreeHundredAndSixtyFiveDays As TimeSpan
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: TimeyWimey
+  commentId: N:TimeyWimey
+  isExternal: false
+  name: TimeyWimey
+  nameWithType: TimeyWimey
+  fullName: TimeyWimey
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan

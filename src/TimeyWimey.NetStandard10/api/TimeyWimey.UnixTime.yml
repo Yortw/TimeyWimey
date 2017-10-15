@@ -1,0 +1,708 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.UnixTime
+  commentId: T:TimeyWimey.UnixTime
+  id: UnixTime
+  parent: TimeyWimey
+  children:
+  - TimeyWimey.UnixTime.ToDateTime(System.Double)
+  - TimeyWimey.UnixTime.ToDateTime(System.Int64)
+  - TimeyWimey.UnixTime.ToDateTimeOffset(System.Double)
+  - TimeyWimey.UnixTime.ToDateTimeOffset(System.Int64)
+  - TimeyWimey.UnixTime.ToUnixTimestamp(System.DateTime)
+  - TimeyWimey.UnixTime.ToUnixTimestamp(System.DateTimeOffset)
+  - TimeyWimey.UnixTime.UnixEpoch
+  - TimeyWimey.UnixTime.UnixEpochDateTimeOffset
+  langs:
+  - csharp
+  - vb
+  name: UnixTime
+  nameWithType: UnixTime
+  fullName: TimeyWimey.UnixTime
+  type: Class
+  source:
+    id: UnixTime
+    path: ''
+    startLine: 1087
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nContains common date and time related constants.\n"
+  example: []
+  syntax:
+    content: public static class UnixTime
+    content.vb: Public Module UnixTime
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TimeyWimey.UnixTime.UnixEpoch
+  commentId: F:TimeyWimey.UnixTime.UnixEpoch
+  id: UnixEpoch
+  parent: TimeyWimey.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: UnixEpoch
+  nameWithType: UnixTime.UnixEpoch
+  fullName: TimeyWimey.UnixTime.UnixEpoch
+  type: Field
+  source:
+    id: UnixEpoch
+    path: ''
+    startLine: 1095
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> instance representing 1st Jan 1970, the Unix epoch.\n"
+  example: []
+  syntax:
+    content: public static readonly DateTime UnixEpoch
+    return:
+      type: System.DateTime
+    content.vb: Public Shared ReadOnly UnixEpoch As Date
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.UnixTime.UnixEpochDateTimeOffset
+  commentId: F:TimeyWimey.UnixTime.UnixEpochDateTimeOffset
+  id: UnixEpochDateTimeOffset
+  parent: TimeyWimey.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: UnixEpochDateTimeOffset
+  nameWithType: UnixTime.UnixEpochDateTimeOffset
+  fullName: TimeyWimey.UnixTime.UnixEpochDateTimeOffset
+  type: Field
+  source:
+    id: UnixEpochDateTimeOffset
+    path: ''
+    startLine: 1100
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref> instance representing 1st Jan 1970, the Unix epoch.\n"
+  example: []
+  syntax:
+    content: public static readonly DateTimeOffset UnixEpochDateTimeOffset
+    return:
+      type: System.DateTimeOffset
+    content.vb: Public Shared ReadOnly UnixEpochDateTimeOffset As DateTimeOffset
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TimeyWimey.UnixTime.ToDateTime(System.Double)
+  commentId: M:TimeyWimey.UnixTime.ToDateTime(System.Double)
+  id: ToDateTime(System.Double)
+  isExtensionMethod: true
+  parent: TimeyWimey.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: ToDateTime(Double)
+  nameWithType: UnixTime.ToDateTime(Double)
+  fullName: TimeyWimey.UnixTime.ToDateTime(System.Double)
+  type: Method
+  source:
+    id: ToDateTime
+    path: ''
+    startLine: 1111
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a new <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> instance representing the date &amp; time the specified timestamp represents.\n"
+  example: []
+  syntax:
+    content: public static DateTime ToDateTime(this double timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Double
+      description: A double value that is a unix timestamp.
+    return:
+      type: System.DateTime
+      description: A <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> that is equivalent to the provided timestamp.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDateTime(timestamp As Double) As Date
+  overload: TimeyWimey.UnixTime.ToDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.UnixTime.ToDateTimeOffset(System.Double)
+  commentId: M:TimeyWimey.UnixTime.ToDateTimeOffset(System.Double)
+  id: ToDateTimeOffset(System.Double)
+  isExtensionMethod: true
+  parent: TimeyWimey.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: ToDateTimeOffset(Double)
+  nameWithType: UnixTime.ToDateTimeOffset(Double)
+  fullName: TimeyWimey.UnixTime.ToDateTimeOffset(System.Double)
+  type: Method
+  source:
+    id: ToDateTimeOffset
+    path: ''
+    startLine: 1121
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a new <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref> instance representing the date &amp; time the specified timestamp represents.\n"
+  example: []
+  syntax:
+    content: public static DateTimeOffset ToDateTimeOffset(this double timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Double
+      description: A double value that is a unix timestamp.
+    return:
+      type: System.DateTimeOffset
+      description: A <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref> that is equivalent to the provided timestamp.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDateTimeOffset(timestamp As Double) As DateTimeOffset
+  overload: TimeyWimey.UnixTime.ToDateTimeOffset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.UnixTime.ToDateTime(System.Int64)
+  commentId: M:TimeyWimey.UnixTime.ToDateTime(System.Int64)
+  id: ToDateTime(System.Int64)
+  isExtensionMethod: true
+  parent: TimeyWimey.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: ToDateTime(Int64)
+  nameWithType: UnixTime.ToDateTime(Int64)
+  fullName: TimeyWimey.UnixTime.ToDateTime(System.Int64)
+  type: Method
+  source:
+    id: ToDateTime
+    path: ''
+    startLine: 1131
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a new <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> instance representing the date &amp; time the specified timestamp represents.\n"
+  example: []
+  syntax:
+    content: public static DateTime ToDateTime(this long timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Int64
+      description: A long value that is a unix timestamp.
+    return:
+      type: System.DateTime
+      description: A <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> that is equivalent to the provided timestamp.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDateTime(timestamp As Long) As Date
+  overload: TimeyWimey.UnixTime.ToDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.UnixTime.ToDateTimeOffset(System.Int64)
+  commentId: M:TimeyWimey.UnixTime.ToDateTimeOffset(System.Int64)
+  id: ToDateTimeOffset(System.Int64)
+  isExtensionMethod: true
+  parent: TimeyWimey.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: ToDateTimeOffset(Int64)
+  nameWithType: UnixTime.ToDateTimeOffset(Int64)
+  fullName: TimeyWimey.UnixTime.ToDateTimeOffset(System.Int64)
+  type: Method
+  source:
+    id: ToDateTimeOffset
+    path: ''
+    startLine: 1141
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a new <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref> instance representing the date &amp; time the specified timestamp represents.\n"
+  example: []
+  syntax:
+    content: public static DateTimeOffset ToDateTimeOffset(this long timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Int64
+      description: A long value that is a unix timestamp.
+    return:
+      type: System.DateTimeOffset
+      description: A <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref> that is equivalent to the provided timestamp.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDateTimeOffset(timestamp As Long) As DateTimeOffset
+  overload: TimeyWimey.UnixTime.ToDateTimeOffset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.UnixTime.ToUnixTimestamp(System.DateTime)
+  commentId: M:TimeyWimey.UnixTime.ToUnixTimestamp(System.DateTime)
+  id: ToUnixTimestamp(System.DateTime)
+  isExtensionMethod: true
+  parent: TimeyWimey.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: ToUnixTimestamp(DateTime)
+  nameWithType: UnixTime.ToUnixTimestamp(DateTime)
+  fullName: TimeyWimey.UnixTime.ToUnixTimestamp(System.DateTime)
+  type: Method
+  source:
+    id: ToUnixTimestamp
+    path: ''
+    startLine: 1155
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nConverts the specified date &amp; time into a double value that represents an equivalent Unix timestamp.\n"
+  example: []
+  syntax:
+    content: public static double ToUnixTimestamp(this DateTime value)
+    parameters:
+    - id: value
+      type: System.DateTime
+      description: The date &amp; time to calculate the Unix timestamp for.
+    return:
+      type: System.Double
+      description: A double containing the number of seconds since the Unix epoch.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToUnixTimestamp(value As Date) As Double
+  overload: TimeyWimey.UnixTime.ToUnixTimestamp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.UnixTime.ToUnixTimestamp(System.DateTimeOffset)
+  commentId: M:TimeyWimey.UnixTime.ToUnixTimestamp(System.DateTimeOffset)
+  id: ToUnixTimestamp(System.DateTimeOffset)
+  isExtensionMethod: true
+  parent: TimeyWimey.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: ToUnixTimestamp(DateTimeOffset)
+  nameWithType: UnixTime.ToUnixTimestamp(DateTimeOffset)
+  fullName: TimeyWimey.UnixTime.ToUnixTimestamp(System.DateTimeOffset)
+  type: Method
+  source:
+    id: ToUnixTimestamp
+    path: ''
+    startLine: 1165
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nConverts the specified <xref href=\"System.DateTimeOffset\" data-throw-if-not-resolved=\"false\"></xref> into a double value that represents an equivalent Unix timestamp.\n"
+  example: []
+  syntax:
+    content: public static double ToUnixTimestamp(this DateTimeOffset value)
+    parameters:
+    - id: value
+      type: System.DateTimeOffset
+      description: The <xref href="System.DateTimeOffset" data-throw-if-not-resolved="false"></xref> to calculate the Unix timestamp for.
+    return:
+      type: System.Double
+      description: A double containing the number of seconds since the Unix epoch.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToUnixTimestamp(value As DateTimeOffset) As Double
+  overload: TimeyWimey.UnixTime.ToUnixTimestamp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TimeyWimey
+  commentId: N:TimeyWimey
+  isExternal: false
+  name: TimeyWimey
+  nameWithType: TimeyWimey
+  fullName: TimeyWimey
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: TimeyWimey.UnixTime.ToDateTime*
+  commentId: Overload:TimeyWimey.UnixTime.ToDateTime
+  isExternal: false
+  name: ToDateTime
+  nameWithType: UnixTime.ToDateTime
+  fullName: TimeyWimey.UnixTime.ToDateTime
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: TimeyWimey.UnixTime.ToDateTimeOffset*
+  commentId: Overload:TimeyWimey.UnixTime.ToDateTimeOffset
+  isExternal: false
+  name: ToDateTimeOffset
+  nameWithType: UnixTime.ToDateTimeOffset
+  fullName: TimeyWimey.UnixTime.ToDateTimeOffset
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: TimeyWimey.UnixTime.ToUnixTimestamp*
+  commentId: Overload:TimeyWimey.UnixTime.ToUnixTimestamp
+  isExternal: false
+  name: ToUnixTimestamp
+  nameWithType: UnixTime.ToUnixTimestamp
+  fullName: TimeyWimey.UnixTime.ToUnixTimestamp

@@ -1,0 +1,766 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.DateTimeExtensions
+  commentId: T:TimeyWimey.DateTimeExtensions
+  id: DateTimeExtensions
+  parent: TimeyWimey
+  children:
+  - TimeyWimey.DateTimeExtensions.ChangeKind(System.DateTime,System.DateTimeKind)
+  - TimeyWimey.DateTimeExtensions.IsFuture(System.DateTime)
+  - TimeyWimey.DateTimeExtensions.IsFuture(System.DateTime,TimeyWimey.Abstractions.IClock)
+  - TimeyWimey.DateTimeExtensions.IsPast(System.DateTime)
+  - TimeyWimey.DateTimeExtensions.IsPast(System.DateTime,TimeyWimey.Abstractions.IClock)
+  - TimeyWimey.DateTimeExtensions.TruncateToHours(System.DateTime)
+  - TimeyWimey.DateTimeExtensions.TruncateToMinutes(System.DateTime)
+  - TimeyWimey.DateTimeExtensions.TruncateToSeconds(System.DateTime)
+  langs:
+  - csharp
+  - vb
+  name: DateTimeExtensions
+  nameWithType: DateTimeExtensions
+  fullName: TimeyWimey.DateTimeExtensions
+  type: Class
+  source:
+    id: DateTimeExtensions
+    path: ''
+    startLine: 11
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nExtensions for the <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> type.\n"
+  example: []
+  syntax:
+    content: public static class DateTimeExtensions
+    content.vb: Public Module DateTimeExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TimeyWimey.DateTimeExtensions.ChangeKind(System.DateTime,System.DateTimeKind)
+  commentId: M:TimeyWimey.DateTimeExtensions.ChangeKind(System.DateTime,System.DateTimeKind)
+  id: ChangeKind(System.DateTime,System.DateTimeKind)
+  isExtensionMethod: true
+  parent: TimeyWimey.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: ChangeKind(DateTime, DateTimeKind)
+  nameWithType: DateTimeExtensions.ChangeKind(DateTime, DateTimeKind)
+  fullName: TimeyWimey.DateTimeExtensions.ChangeKind(System.DateTime, System.DateTimeKind)
+  type: Method
+  source:
+    id: ChangeKind
+    path: ''
+    startLine: 24
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> instance with the <xref href=\"System.DateTime.Kind\" data-throw-if-not-resolved=\"false\"></xref> property set to the specified value, but otherwise representing the same time as original.\n"
+  remarks: "\n<p>If the <code data-dev-comment-type=\"paramref\" class=\"paramref\">newKind</code> is the same as the kind property of <code data-dev-comment-type=\"paramref\" class=\"paramref\">value</code> then the value of <code data-dev-comment-type=\"paramref\" class=\"paramref\">value</code> is returned instead of a new instance.</p>\n<p>This method does NOT convert between timezones, if the datetime provided is 20/03/2016 13:00:00 then that will be the same value returned in the new instance, only the <xref href=\"System.DateTime.Kind\" data-throw-if-not-resolved=\"false\"></xref> propery is changed.</p>\n"
+  example: []
+  syntax:
+    content: public static DateTime ChangeKind(this DateTime value, DateTimeKind newKind)
+    parameters:
+    - id: value
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> to use as the basis for the new value.
+    - id: newKind
+      type: System.DateTimeKind
+      description: The <xref href="System.DateTimeKind" data-throw-if-not-resolved="false"></xref> value to use for the new instance.
+    return:
+      type: System.DateTime
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ChangeKind(value As Date, newKind As DateTimeKind) As Date
+  overload: TimeyWimey.DateTimeExtensions.ChangeKind*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeExtensions.IsFuture(System.DateTime)
+  commentId: M:TimeyWimey.DateTimeExtensions.IsFuture(System.DateTime)
+  id: IsFuture(System.DateTime)
+  isExtensionMethod: true
+  parent: TimeyWimey.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsFuture(DateTime)
+  nameWithType: DateTimeExtensions.IsFuture(DateTime)
+  fullName: TimeyWimey.DateTimeExtensions.IsFuture(System.DateTime)
+  type: Method
+  source:
+    id: IsFuture
+    path: ''
+    startLine: 42
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns true if <code data-dev-comment-type=\"paramref\" class=\"paramref\">time</code> references a time in the future.\n"
+  remarks: "\n<p>This compares <code data-dev-comment-type=\"paramref\" class=\"paramref\">time</code> to <xref href=\"System.DateTime.Now\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+  example: []
+  syntax:
+    content: public static bool IsFuture(this DateTime time)
+    parameters:
+    - id: time
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> to check.
+    return:
+      type: System.Boolean
+      description: True if the specified date and time is in the future, otherwise false.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsFuture(time As Date) As Boolean
+  overload: TimeyWimey.DateTimeExtensions.IsFuture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeExtensions.IsFuture(System.DateTime,TimeyWimey.Abstractions.IClock)
+  commentId: M:TimeyWimey.DateTimeExtensions.IsFuture(System.DateTime,TimeyWimey.Abstractions.IClock)
+  id: IsFuture(System.DateTime,TimeyWimey.Abstractions.IClock)
+  isExtensionMethod: true
+  parent: TimeyWimey.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsFuture(DateTime, IClock)
+  nameWithType: DateTimeExtensions.IsFuture(DateTime, IClock)
+  fullName: TimeyWimey.DateTimeExtensions.IsFuture(System.DateTime, TimeyWimey.Abstractions.IClock)
+  type: Method
+  source:
+    id: IsFuture
+    path: ''
+    startLine: 56
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns true if <code data-dev-comment-type=\"paramref\" class=\"paramref\">time</code> references a time in the future.\n"
+  remarks: "\n<p>This compares <code data-dev-comment-type=\"paramref\" class=\"paramref\">time</code> to <xref href=\"System.DateTime.Now\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+  example: []
+  syntax:
+    content: public static bool IsFuture(this DateTime time, IClock clock)
+    parameters:
+    - id: time
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> to check.
+    - id: clock
+      type: TimeyWimey.Abstractions.IClock
+      description: A <xref href="TimeyWimey.Abstractions.IClock" data-throw-if-not-resolved="false"></xref> implementation used to obtain the current time.
+    return:
+      type: System.Boolean
+      description: True if the specified date and time is in the future, otherwise false.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsFuture(time As Date, clock As IClock) As Boolean
+  overload: TimeyWimey.DateTimeExtensions.IsFuture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeExtensions.IsPast(System.DateTime)
+  commentId: M:TimeyWimey.DateTimeExtensions.IsPast(System.DateTime)
+  id: IsPast(System.DateTime)
+  isExtensionMethod: true
+  parent: TimeyWimey.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsPast(DateTime)
+  nameWithType: DateTimeExtensions.IsPast(DateTime)
+  fullName: TimeyWimey.DateTimeExtensions.IsPast(System.DateTime)
+  type: Method
+  source:
+    id: IsPast
+    path: ''
+    startLine: 75
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns true if <code data-dev-comment-type=\"paramref\" class=\"paramref\">time</code> references a time in the past.\n"
+  remarks: "\n<p>This compares <code data-dev-comment-type=\"paramref\" class=\"paramref\">time</code> to <xref href=\"System.DateTime.Now\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+  example: []
+  syntax:
+    content: public static bool IsPast(this DateTime time)
+    parameters:
+    - id: time
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> to check.
+    return:
+      type: System.Boolean
+      description: True if the specified date and time is in the future, otherwise false.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsPast(time As Date) As Boolean
+  overload: TimeyWimey.DateTimeExtensions.IsPast*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeExtensions.IsPast(System.DateTime,TimeyWimey.Abstractions.IClock)
+  commentId: M:TimeyWimey.DateTimeExtensions.IsPast(System.DateTime,TimeyWimey.Abstractions.IClock)
+  id: IsPast(System.DateTime,TimeyWimey.Abstractions.IClock)
+  isExtensionMethod: true
+  parent: TimeyWimey.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsPast(DateTime, IClock)
+  nameWithType: DateTimeExtensions.IsPast(DateTime, IClock)
+  fullName: TimeyWimey.DateTimeExtensions.IsPast(System.DateTime, TimeyWimey.Abstractions.IClock)
+  type: Method
+  source:
+    id: IsPast
+    path: ''
+    startLine: 89
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns true if <code data-dev-comment-type=\"paramref\" class=\"paramref\">time</code> references a time in the past.\n"
+  remarks: "\n<p>This compares <code data-dev-comment-type=\"paramref\" class=\"paramref\">time</code> to <xref href=\"System.DateTime.Now\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+  example: []
+  syntax:
+    content: public static bool IsPast(this DateTime time, IClock clock)
+    parameters:
+    - id: time
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> to check.
+    - id: clock
+      type: TimeyWimey.Abstractions.IClock
+      description: A <xref href="TimeyWimey.Abstractions.IClock" data-throw-if-not-resolved="false"></xref> implementation used to obtain the current time.
+    return:
+      type: System.Boolean
+      description: True if the specified date and time is in the future, otherwise false.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsPast(time As Date, clock As IClock) As Boolean
+  overload: TimeyWimey.DateTimeExtensions.IsPast*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeExtensions.TruncateToSeconds(System.DateTime)
+  commentId: M:TimeyWimey.DateTimeExtensions.TruncateToSeconds(System.DateTime)
+  id: TruncateToSeconds(System.DateTime)
+  isExtensionMethod: true
+  parent: TimeyWimey.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: TruncateToSeconds(DateTime)
+  nameWithType: DateTimeExtensions.TruncateToSeconds(DateTime)
+  fullName: TimeyWimey.DateTimeExtensions.TruncateToSeconds(System.DateTime)
+  type: Method
+  source:
+    id: TruncateToSeconds
+    path: ''
+    startLine: 105
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a new <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> value equivalent to the one provided but with a zero millsecond component.\n"
+  example: []
+  syntax:
+    content: public static DateTime TruncateToSeconds(this DateTime value)
+    parameters:
+    - id: value
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to truncate.
+    return:
+      type: System.DateTime
+      description: A new <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> missing the millseconds component of <code data-dev-comment-type="paramref" class="paramref">value</code>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TruncateToSeconds(value As Date) As Date
+  overload: TimeyWimey.DateTimeExtensions.TruncateToSeconds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeExtensions.TruncateToMinutes(System.DateTime)
+  commentId: M:TimeyWimey.DateTimeExtensions.TruncateToMinutes(System.DateTime)
+  id: TruncateToMinutes(System.DateTime)
+  isExtensionMethod: true
+  parent: TimeyWimey.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: TruncateToMinutes(DateTime)
+  nameWithType: DateTimeExtensions.TruncateToMinutes(DateTime)
+  fullName: TimeyWimey.DateTimeExtensions.TruncateToMinutes(System.DateTime)
+  type: Method
+  source:
+    id: TruncateToMinutes
+    path: ''
+    startLine: 117
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a new <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> value equivalent to the one provided but with zero second and millsecond components.\n"
+  example: []
+  syntax:
+    content: public static DateTime TruncateToMinutes(this DateTime value)
+    parameters:
+    - id: value
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to truncate.
+    return:
+      type: System.DateTime
+      description: A new <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> missing the seconds and millseconds components of <code data-dev-comment-type="paramref" class="paramref">value</code>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TruncateToMinutes(value As Date) As Date
+  overload: TimeyWimey.DateTimeExtensions.TruncateToMinutes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeExtensions.TruncateToHours(System.DateTime)
+  commentId: M:TimeyWimey.DateTimeExtensions.TruncateToHours(System.DateTime)
+  id: TruncateToHours(System.DateTime)
+  isExtensionMethod: true
+  parent: TimeyWimey.DateTimeExtensions
+  langs:
+  - csharp
+  - vb
+  name: TruncateToHours(DateTime)
+  nameWithType: DateTimeExtensions.TruncateToHours(DateTime)
+  fullName: TimeyWimey.DateTimeExtensions.TruncateToHours(System.DateTime)
+  type: Method
+  source:
+    id: TruncateToHours
+    path: ''
+    startLine: 129
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a new <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> value equivalent to the one provided but with zero minute, second, and millsecond components.\n"
+  example: []
+  syntax:
+    content: public static DateTime TruncateToHours(this DateTime value)
+    parameters:
+    - id: value
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to truncate.
+    return:
+      type: System.DateTime
+      description: A new <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> missing the minutes, seconds and millseconds components of <code data-dev-comment-type="paramref" class="paramref">value</code>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TruncateToHours(value As Date) As Date
+  overload: TimeyWimey.DateTimeExtensions.TruncateToHours*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: TimeyWimey
+  commentId: N:TimeyWimey
+  isExternal: false
+  name: TimeyWimey
+  nameWithType: TimeyWimey
+  fullName: TimeyWimey
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.DateTime.Kind
+  commentId: P:System.DateTime.Kind
+- uid: System.DateTimeKind
+  commentId: T:System.DateTimeKind
+  parent: System
+  isExternal: true
+  name: DateTimeKind
+  nameWithType: DateTimeKind
+  fullName: System.DateTimeKind
+- uid: TimeyWimey.DateTimeExtensions.ChangeKind*
+  commentId: Overload:TimeyWimey.DateTimeExtensions.ChangeKind
+  isExternal: false
+  name: ChangeKind
+  nameWithType: DateTimeExtensions.ChangeKind
+  fullName: TimeyWimey.DateTimeExtensions.ChangeKind
+- uid: System.DateTime.Now
+  commentId: P:System.DateTime.Now
+- uid: TimeyWimey.DateTimeExtensions.IsFuture*
+  commentId: Overload:TimeyWimey.DateTimeExtensions.IsFuture
+  isExternal: false
+  name: IsFuture
+  nameWithType: DateTimeExtensions.IsFuture
+  fullName: TimeyWimey.DateTimeExtensions.IsFuture
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TimeyWimey.Abstractions.IClock
+  commentId: T:TimeyWimey.Abstractions.IClock
+  parent: TimeyWimey.Abstractions
+  isExternal: false
+  name: IClock
+  nameWithType: IClock
+  fullName: TimeyWimey.Abstractions.IClock
+- uid: TimeyWimey.Abstractions
+  commentId: N:TimeyWimey.Abstractions
+  isExternal: false
+  name: TimeyWimey.Abstractions
+  nameWithType: TimeyWimey.Abstractions
+  fullName: TimeyWimey.Abstractions
+- uid: TimeyWimey.DateTimeExtensions.IsPast*
+  commentId: Overload:TimeyWimey.DateTimeExtensions.IsPast
+  isExternal: false
+  name: IsPast
+  nameWithType: DateTimeExtensions.IsPast
+  fullName: TimeyWimey.DateTimeExtensions.IsPast
+- uid: TimeyWimey.DateTimeExtensions.TruncateToSeconds*
+  commentId: Overload:TimeyWimey.DateTimeExtensions.TruncateToSeconds
+  isExternal: false
+  name: TruncateToSeconds
+  nameWithType: DateTimeExtensions.TruncateToSeconds
+  fullName: TimeyWimey.DateTimeExtensions.TruncateToSeconds
+- uid: TimeyWimey.DateTimeExtensions.TruncateToMinutes*
+  commentId: Overload:TimeyWimey.DateTimeExtensions.TruncateToMinutes
+  isExternal: false
+  name: TruncateToMinutes
+  nameWithType: DateTimeExtensions.TruncateToMinutes
+  fullName: TimeyWimey.DateTimeExtensions.TruncateToMinutes
+- uid: TimeyWimey.DateTimeExtensions.TruncateToHours*
+  commentId: Overload:TimeyWimey.DateTimeExtensions.TruncateToHours
+  isExternal: false
+  name: TruncateToHours
+  nameWithType: DateTimeExtensions.TruncateToHours
+  fullName: TimeyWimey.DateTimeExtensions.TruncateToHours

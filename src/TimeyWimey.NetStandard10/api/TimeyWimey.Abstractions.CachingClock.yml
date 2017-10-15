@@ -1,0 +1,686 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.Abstractions.CachingClock
+  commentId: T:TimeyWimey.Abstractions.CachingClock
+  id: CachingClock
+  parent: TimeyWimey.Abstractions
+  children:
+  - TimeyWimey.Abstractions.CachingClock.#ctor(TimeyWimey.Abstractions.IClock)
+  - TimeyWimey.Abstractions.CachingClock.#ctor(TimeyWimey.Abstractions.IClock,System.Int32)
+  - TimeyWimey.Abstractions.CachingClock.Dispose
+  - TimeyWimey.Abstractions.CachingClock.Dispose(System.Boolean)
+  - TimeyWimey.Abstractions.CachingClock.Now
+  langs:
+  - csharp
+  - vb
+  name: CachingClock
+  nameWithType: CachingClock
+  fullName: TimeyWimey.Abstractions.CachingClock
+  type: Class
+  source:
+    id: CachingClock
+    path: ''
+    startLine: 1189
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nProvides a <xref href=\"TimeyWimey.Abstractions.IClock\" data-throw-if-not-resolved=\"false\"></xref> implementation that caches the result of another clock for short periods. \n"
+  remarks: "\n<p>Some clock implementations may be allocation heavy or slow. Wrapping them in a caching clock can improve performance when finest precision is not required.</p>\n"
+  example: []
+  syntax:
+    content: 'public class CachingClock : SystemClock, IClock, IDisposable'
+    content.vb: >-
+      Public Class CachingClock
+          Inherits SystemClock
+          Implements IClock, IDisposable
+  see:
+  - linkId: TimeyWimey.Abstractions.IClock
+    commentId: T:TimeyWimey.Abstractions.IClock
+  inheritance:
+  - System.Object
+  - TimeyWimey.Abstractions.ClockBase
+  - TimeyWimey.Abstractions.SystemClock
+  implements:
+  - TimeyWimey.Abstractions.IClock
+  - System.IDisposable
+  inheritedMembers:
+  - TimeyWimey.Abstractions.ClockBase.Adjusted
+  - TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TimeyWimey.Abstractions.CachingClock.#ctor(TimeyWimey.Abstractions.IClock)
+  commentId: M:TimeyWimey.Abstractions.CachingClock.#ctor(TimeyWimey.Abstractions.IClock)
+  id: '#ctor(TimeyWimey.Abstractions.IClock)'
+  parent: TimeyWimey.Abstractions.CachingClock
+  langs:
+  - csharp
+  - vb
+  name: CachingClock(IClock)
+  nameWithType: CachingClock.CachingClock(IClock)
+  fullName: TimeyWimey.Abstractions.CachingClock.CachingClock(TimeyWimey.Abstractions.IClock)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1204
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nCreates an instance wrapping the <xref href=\"TimeyWimey.Abstractions.IClock\" data-throw-if-not-resolved=\"false\"></xref> instance specified by <code data-dev-comment-type=\"paramref\" class=\"paramref\">innerClock</code>.\n"
+  remarks: "\n<p>This constructor creates an instance where the current time is cached for at least one second between calls.</p>\n"
+  example: []
+  syntax:
+    content: public CachingClock(IClock innerClock)
+    parameters:
+    - id: innerClock
+      type: TimeyWimey.Abstractions.IClock
+      description: A <xref href="TimeyWimey.Abstractions.IClock" data-throw-if-not-resolved="false"></xref> instance to use when updating the cached time.
+    content.vb: Public Sub New(innerClock As IClock)
+  overload: TimeyWimey.Abstractions.CachingClock.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">innerClock</code> is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Abstractions.CachingClock.#ctor(TimeyWimey.Abstractions.IClock,System.Int32)
+  commentId: M:TimeyWimey.Abstractions.CachingClock.#ctor(TimeyWimey.Abstractions.IClock,System.Int32)
+  id: '#ctor(TimeyWimey.Abstractions.IClock,System.Int32)'
+  parent: TimeyWimey.Abstractions.CachingClock
+  langs:
+  - csharp
+  - vb
+  name: CachingClock(IClock, Int32)
+  nameWithType: CachingClock.CachingClock(IClock, Int32)
+  fullName: TimeyWimey.Abstractions.CachingClock.CachingClock(TimeyWimey.Abstractions.IClock, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1214
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nCreates an instance wrapping the <xref href=\"TimeyWimey.Abstractions.IClock\" data-throw-if-not-resolved=\"false\"></xref> instance specified by <code data-dev-comment-type=\"paramref\" class=\"paramref\">innerClock</code>.\n"
+  example: []
+  syntax:
+    content: public CachingClock(IClock innerClock, int cacheIntervalMilliseconds)
+    parameters:
+    - id: innerClock
+      type: TimeyWimey.Abstractions.IClock
+      description: A <xref href="TimeyWimey.Abstractions.IClock" data-throw-if-not-resolved="false"></xref> instance to use when updating the cached time.
+    - id: cacheIntervalMilliseconds
+      type: System.Int32
+      description: The length of time, in milliseconds, to cache the time for. A value of zero is allowed and will effectively disable caching.
+    content.vb: Public Sub New(innerClock As IClock, cacheIntervalMilliseconds As Integer)
+  overload: TimeyWimey.Abstractions.CachingClock.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if <code data-dev-comment-type="paramref" class="paramref">innerClock</code> is null.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Abstractions.CachingClock.Now
+  commentId: P:TimeyWimey.Abstractions.CachingClock.Now
+  id: Now
+  parent: TimeyWimey.Abstractions.CachingClock
+  langs:
+  - csharp
+  - vb
+  name: Now
+  nameWithType: CachingClock.Now
+  fullName: TimeyWimey.Abstractions.CachingClock.Now
+  type: Property
+  source:
+    id: Now
+    path: ''
+    startLine: 1227
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nReturns the current time from the wrapped clock, or a cached time if insufficient time has passed since the inner clock was last consulted.\n"
+  example: []
+  syntax:
+    content: public override DateTimeOffset Now { get; }
+    parameters: []
+    return:
+      type: System.DateTimeOffset
+    content.vb: Public Overrides ReadOnly Property Now As DateTimeOffset
+  overridden: TimeyWimey.Abstractions.SystemClock.Now
+  overload: TimeyWimey.Abstractions.CachingClock.Now*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TimeyWimey.Abstractions.CachingClock.Dispose
+  commentId: M:TimeyWimey.Abstractions.CachingClock.Dispose
+  id: Dispose
+  parent: TimeyWimey.Abstractions.CachingClock
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CachingClock.Dispose()
+  fullName: TimeyWimey.Abstractions.CachingClock.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 1245
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nDisconnects this clock from the inner clock&apos;s <xref href=\"TimeyWimey.Abstractions.IClock.Adjusted\" data-throw-if-not-resolved=\"false\"></xref> event.\n"
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: TimeyWimey.Abstractions.CachingClock.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.Abstractions.CachingClock.Dispose(System.Boolean)
+  commentId: M:TimeyWimey.Abstractions.CachingClock.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: TimeyWimey.Abstractions.CachingClock
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: CachingClock.Dispose(Boolean)
+  fullName: TimeyWimey.Abstractions.CachingClock.Dispose(System.Boolean)
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 1261
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey.Abstractions
+  summary: "\nDisconnects this clock from the inner clock&apos;s <xref href=\"TimeyWimey.Abstractions.IClock.Adjusted\" data-throw-if-not-resolved=\"false\"></xref> event.\n"
+  example: []
+  syntax:
+    content: protected virtual void Dispose(bool isDisposing)
+    parameters:
+    - id: isDisposing
+      type: System.Boolean
+      description: True if the instance is being explicitly disposed, otherwise false if it being disposed from a finalizer.
+    content.vb: Protected Overridable Sub Dispose(isDisposing As Boolean)
+  overload: TimeyWimey.Abstractions.CachingClock.Dispose*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: TimeyWimey.Abstractions.IClock
+  commentId: T:TimeyWimey.Abstractions.IClock
+  parent: TimeyWimey.Abstractions
+  isExternal: false
+  name: IClock
+  nameWithType: IClock
+  fullName: TimeyWimey.Abstractions.IClock
+- uid: TimeyWimey.Abstractions
+  commentId: N:TimeyWimey.Abstractions
+  isExternal: false
+  name: TimeyWimey.Abstractions
+  nameWithType: TimeyWimey.Abstractions
+  fullName: TimeyWimey.Abstractions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TimeyWimey.Abstractions.ClockBase
+  commentId: T:TimeyWimey.Abstractions.ClockBase
+  parent: TimeyWimey.Abstractions
+  isExternal: false
+  name: ClockBase
+  nameWithType: ClockBase
+  fullName: TimeyWimey.Abstractions.ClockBase
+- uid: TimeyWimey.Abstractions.SystemClock
+  commentId: T:TimeyWimey.Abstractions.SystemClock
+  parent: TimeyWimey.Abstractions
+  isExternal: false
+  name: SystemClock
+  nameWithType: SystemClock
+  fullName: TimeyWimey.Abstractions.SystemClock
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: TimeyWimey.Abstractions.ClockBase.Adjusted
+  commentId: E:TimeyWimey.Abstractions.ClockBase.Adjusted
+  parent: TimeyWimey.Abstractions.ClockBase
+  isExternal: false
+  name: Adjusted
+  nameWithType: ClockBase.Adjusted
+  fullName: TimeyWimey.Abstractions.ClockBase.Adjusted
+- uid: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  commentId: M:TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  parent: TimeyWimey.Abstractions.ClockBase
+  isExternal: false
+  name: OnAdjusted()
+  nameWithType: ClockBase.OnAdjusted()
+  fullName: TimeyWimey.Abstractions.ClockBase.OnAdjusted()
+  spec.csharp:
+  - uid: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+    name: OnAdjusted
+    nameWithType: ClockBase.OnAdjusted
+    fullName: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+    name: OnAdjusted
+    nameWithType: ClockBase.OnAdjusted
+    fullName: TimeyWimey.Abstractions.ClockBase.OnAdjusted
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TimeyWimey.Abstractions.CachingClock.#ctor*
+  commentId: Overload:TimeyWimey.Abstractions.CachingClock.#ctor
+  isExternal: false
+  name: CachingClock
+  nameWithType: CachingClock.CachingClock
+  fullName: TimeyWimey.Abstractions.CachingClock.CachingClock
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TimeyWimey.Abstractions.SystemClock.Now
+  commentId: P:TimeyWimey.Abstractions.SystemClock.Now
+  parent: TimeyWimey.Abstractions.SystemClock
+  isExternal: false
+  name: Now
+  nameWithType: SystemClock.Now
+  fullName: TimeyWimey.Abstractions.SystemClock.Now
+- uid: TimeyWimey.Abstractions.CachingClock.Now*
+  commentId: Overload:TimeyWimey.Abstractions.CachingClock.Now
+  isExternal: false
+  name: Now
+  nameWithType: CachingClock.Now
+  fullName: TimeyWimey.Abstractions.CachingClock.Now
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: TimeyWimey.Abstractions.IClock.Adjusted
+  commentId: E:TimeyWimey.Abstractions.IClock.Adjusted
+  parent: TimeyWimey.Abstractions.IClock
+  isExternal: false
+  name: Adjusted
+  nameWithType: IClock.Adjusted
+  fullName: TimeyWimey.Abstractions.IClock.Adjusted
+- uid: TimeyWimey.Abstractions.CachingClock.Dispose*
+  commentId: Overload:TimeyWimey.Abstractions.CachingClock.Dispose
+  isExternal: false
+  name: Dispose
+  nameWithType: CachingClock.Dispose
+  fullName: TimeyWimey.Abstractions.CachingClock.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

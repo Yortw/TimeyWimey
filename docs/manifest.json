@@ -1,0 +1,1661 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Projects/GitHub/TimeyWimey/src/TimeyWimey.NetStandard10",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.CachingClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.CachingClock.-ctor.html",
+          "hash": "Wf/qwSwmd56R2XGax63bBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.CachingClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.CachingClock.Now.html",
+          "hash": "1DDDQ3cH3akUG8diSsIkFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.CachingClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.CachingClock.Dispose.html",
+          "hash": "tCCczYpx4OeUmVBw6gDa3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.CachingClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.CachingClock.html",
+          "hash": "Bjghv+ilMEV4/qK1acR7+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.ClockBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.ClockBase.Adjusted.html",
+          "hash": "Shf7jdar9O6ZTHfWiOxJsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.ClockBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.ClockBase.Now.html",
+          "hash": "e6EmVb1oe/LCmT+L5xhnCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.ClockBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.ClockBase.OnAdjusted.html",
+          "hash": "9tY+B0s5DhXn9CUiG3oQxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.ClockBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.ClockBase.html",
+          "hash": "Byny6k7YthhJ5KliNFMs4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.IClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.IClock.Adjusted.html",
+          "hash": "AykoNHuTLwdHmmTgE5e5lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.IClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.IClock.Now.html",
+          "hash": "RStKUdiYtplr/ig8chUbqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.IClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.IClock.html",
+          "hash": "4b+KIWp3B0RVxj5iCLnrCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.MockClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.MockClock.SetTime.html",
+          "hash": "FXPRZvu7S7PMT+1DoXLYhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.MockClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.MockClock.Now.html",
+          "hash": "lvUYhveu7NIk/4bBQ/LcRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.MockClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.MockClock.html",
+          "hash": "WpwXa9+YzGIbV0NeFDBkTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.SystemClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.SystemClock.Now.html",
+          "hash": "nzp2k5U/d3uP4QmAKXfDCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.SystemClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.SystemClock.html",
+          "hash": "5jfbHQXx/yNahpiOF2BdKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Abstractions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Abstractions.html",
+          "hash": "0noSG/+iuoSpTt9Co4zzWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeExtensions.ChangeKind.html",
+          "hash": "db5LjKb0Iqeb3JomgDKP7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeExtensions.IsFuture.html",
+          "hash": "C0yfPeGCu5vsCjoIK89FSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeExtensions.IsPast.html",
+          "hash": "3sZhraNXzhx6Qr2jKqlsFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeExtensions.TruncateToSeconds.html",
+          "hash": "9/4v8B6IufZWwMOZgnpjzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeExtensions.TruncateToMinutes.html",
+          "hash": "mJjwsutTAijoO5HmpPhKeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeExtensions.TruncateToHours.html",
+          "hash": "Bp7DWzZXF0nadbX9K1avbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeExtensions.html",
+          "hash": "tMZbq7aWy73EuMGEEXYFDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.IsFuture.html",
+          "hash": "OH36wzmR9Nhx8QWUsba9/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.IsPast.html",
+          "hash": "5bygSeCoAOrrIIXVuqeTew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.TruncateToSeconds.html",
+          "hash": "LqluerHyvXmurne8iK7l5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.TruncateToMinutes.html",
+          "hash": "8l9xRMuZb+5R8SKeNvSqZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.TruncateToHours.html",
+          "hash": "lw+xjduYQBX+LfdRsXyXrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeOffsetExtensions.html",
+          "hash": "q6zI7EA03P/cqvZU/5YC6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.op_Inequality.html",
+          "hash": "H9E61uIHzVPm9Z9brMqY9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.op_LessThan.html",
+          "hash": "I5jNE833J0/pSgDq/lC6dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.op_GreaterThan.html",
+          "hash": "qCgwbJniv1FoKWPagosw8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.CompareTo.html",
+          "hash": "HxLq2el6dOXYfQKBJWbKkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.op_Equality.html",
+          "hash": "fmA9Y/VvH+peoQwbNzzkSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.-ctor.html",
+          "hash": "3qmyJFO/3vE26PKIr9T+6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.Start.html",
+          "hash": "/mNGNc0EwoLk/hFa0oJF4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.End.html",
+          "hash": "a8UEvC4T27efj9iYC8G/4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.Length.html",
+          "hash": "yzcd0sZ+b84wjDugPcCpmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.Contains.html",
+          "hash": "EUN16SrG4/OzE9n0kD6QTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.Overlaps.html",
+          "hash": "6wMmrqWQc8lBj5JED5fZdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.Create.html",
+          "hash": "oiB/v7NEROWhQT6Y4/aihQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.EndAt.html",
+          "hash": "t/1T11w8GQ96TJOzt1hq+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.StartAt.html",
+          "hash": "AeAzp679QiJ54+2u9dG7gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.GetHashCode.html",
+          "hash": "AMJ9W+3QD2ZlUc+lvwMgDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.Equals.html",
+          "hash": "0Ncu1TKPs2ZNQTU2b0NCNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.DateTimeRange.html",
+          "hash": "xzEQx0dBvc7ue4XmRMt6ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.NumberToTimespanExtensions.Milliseconds.html",
+          "hash": "NGYxccdXAAM0mfkJ6kOjhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.NumberToTimespanExtensions.Seconds.html",
+          "hash": "/p4SgCJe7yZMBpWP5vWKWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.NumberToTimespanExtensions.Minutes.html",
+          "hash": "kpMY93whIgof0AOSxTWicQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.NumberToTimespanExtensions.Hours.html",
+          "hash": "xRKgTz6wuweDeRvPPxXTmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.NumberToTimespanExtensions.Days.html",
+          "hash": "6XSH1oVcgc6iWhPDKsDi0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.NumberToTimespanExtensions.html",
+          "hash": "965KIqsFJZ8+FCd/fsUhOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMilliseconds_InitialisesTimeSpanCorrectly.html",
+          "hash": "20E07UCJwsYKLiwVkXHIZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToSeconds_InitialisesTimeSpanCorrectly.html",
+          "hash": "aFCXj34zzXZSE3INIwW6dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToMinutes_InitialisesTimeSpanCorrectly.html",
+          "hash": "5xdqEXg1GfP77kqH4LhHIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToHours_InitialisesTimeSpanCorrectly.html",
+          "hash": "1bncaJ0r2G/uDrAkfDYbeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.IntegerToDays_InitialisesTimeSpanCorrectly.html",
+          "hash": "pGXnPgG60X4uYNOW48D3eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.LongToMilliseconds_InitialisesTimeSpanCorrectly.html",
+          "hash": "pPYy0khZb1kMneE/cFhDEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.LongToSeconds_InitialisesTimeSpanCorrectly.html",
+          "hash": "9Eg0gu6xMxK5CxfkHOCCMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.LongToMinutes_InitialisesTimeSpanCorrectly.html",
+          "hash": "79P/pzfJ2z2sp4i2IfHSUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.LongToHours_InitialisesTimeSpanCorrectly.html",
+          "hash": "jQyTwiX5+yOy0lXZ7HJLdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.LongToDays_InitialisesTimeSpanCorrectly.html",
+          "hash": "Glxc4PjfUG1wVFBjQAgjMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMilliseconds_InitialisesTimeSpanCorrectly.html",
+          "hash": "4IEPf4O53NjDwp7qyl7yoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToSeconds_InitialisesTimeSpanCorrectly.html",
+          "hash": "Db2qU/8nMaV3iM+5qAqrTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToMinutes_InitialisesTimeSpanCorrectly.html",
+          "hash": "YjhjAtrnmXPpByCzCx0stQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToHours_InitialisesTimeSpanCorrectly.html",
+          "hash": "Mjn1kad6oH5EEd921eo43w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.DoubleToDays_InitialisesTimeSpanCorrectly.html",
+          "hash": "xtZuHrUCYmQ17MPvP9kGNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMilliseconds_InitialisesTimeSpanCorrectly.html",
+          "hash": "sZRpLG+U/zoCN3TihB5U7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.FloatToSeconds_InitialisesTimeSpanCorrectly.html",
+          "hash": "aZnJnelDO7tX3F2u4nXSRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.FloatToMinutes_InitialisesTimeSpanCorrectly.html",
+          "hash": "r5gslDb2mygPiyshyjkmdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.FloatToHours_InitialisesTimeSpanCorrectly.html",
+          "hash": "DPlo79AHGsxQasOvkx64AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.FloatToDays_InitialisesTimeSpanCorrectly.html",
+          "hash": "kQn+wWvEoMjQCF4IRCrAOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.NumberToTimespanExtensions.html",
+          "hash": "U757JjACYyw5qcgNwT0sAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.Tests.html",
+          "hash": "sJp+LEfTYW8K5lFwtHDgPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FiveDays.html",
+          "hash": "WUdTR/19ORowHl61YzANrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.SevenDays.html",
+          "hash": "RLj17INeB3ZF/R/9ex4meA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.OneMillisecond.html",
+          "hash": "1QamoD/q1ClSoFarcrHOrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FiveMilliseconds.html",
+          "hash": "zoME9wSwXQcQgFxDst0Fiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.EightMilliseconds.html",
+          "hash": "IE4TPgbzNtDERpGBa8i/jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TenMilliseconds.html",
+          "hash": "ZlK5nUrb8yPjrfi/2InvWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FifteenMilliseconds.html",
+          "hash": "M1lE5t4z9FxJwHFPtjqpPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FourteenDays.html",
+          "hash": "5/nprF7pk7ohl7CL+hsW9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.ThirtyDays.html",
+          "hash": "AfvAOO5H/vJr9gtWi+m/vQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.ThirtyOneDays.html",
+          "hash": "raR5GpCVGbcSG1IfS/tg4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.SixtyDays.html",
+          "hash": "PSkgYxySwdn3YDlr+wyDDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.NinetyDays.html",
+          "hash": "nCNHozdU4MCtncsi32/J1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.OneHundredAndTwentyDays.html",
+          "hash": "+dKaEaeBnGwOkffELAA4ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.ThreeHundredAndSixtyFiveDays.html",
+          "hash": "o28lTaXwE+H1SYmoJfSffw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.OneHundredMilliseconds.html",
+          "hash": "8tBkWTge0Oep6RuhAM3GUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TwoHundredAndFiftyMilliseconds.html",
+          "hash": "d59sHtzftdjFW0n5J8Uu9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FiveHundredMilliseconds.html",
+          "hash": "puII7SzuSajN6iNRNs6CAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.OneSecond.html",
+          "hash": "w56SFMQuBIz7swDgtEBcCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TwoSeconds.html",
+          "hash": "2cb0EcX/lM/VXTABBNZ2Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.ThreeSeconds.html",
+          "hash": "+dgsdt/ApzYXWLbbKpHbsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FiveSeconds.html",
+          "hash": "b2ef6SDQVml5yCkgiC7U+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TenSeconds.html",
+          "hash": "l1uNkMfalP6de8vSds6Pkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FifteenSeconds.html",
+          "hash": "wiLLTK+TBxv1UDb+cKZOoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TwentySeconds.html",
+          "hash": "vhua3bAuWuMV4p9XXmW0aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.ThirtySeconds.html",
+          "hash": "+oel6I4uT1K/gT9dSXGMKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FortyFiveSeconds.html",
+          "hash": "S+anEcmLWVo9gptm2iGtvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.OneMinute.html",
+          "hash": "w+ZXZ9170nfVAhHGOkFoGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TwoMinutes.html",
+          "hash": "0tsC/PIoVM/XApuaTCNVKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.ThreeMinutes.html",
+          "hash": "2BqyCRVcfLbz5c900w2O4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FiveMinutes.html",
+          "hash": "dRoZSpRvO7LOxtu9yRqhbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TenMinutes.html",
+          "hash": "Bo1lPL+j4jKs1AsRiYlsog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FifteenMinutes.html",
+          "hash": "1pNl46p/7IjJ1LqfFNWTRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TwentyMinutes.html",
+          "hash": "2qKyoZXAR8dCjce2gjhsrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.ThirtyMinutes.html",
+          "hash": "/qMJN9k8iGKevF6bjdPxgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FortyFiveMinutes.html",
+          "hash": "ESICtcnNHoKF6r0Bm6uuRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.OneHour.html",
+          "hash": "HlX0TFgxvOAmTbUXxFoW1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TwoHours.html",
+          "hash": "ntiZXM2GEHNJc9OGZ+RejA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.ThreeHours.html",
+          "hash": "VNCmIDNmQzrJRavqaFUVrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.FiveHours.html",
+          "hash": "EqN3/e7BPKfdJy/OiSvHYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.EightHours.html",
+          "hash": "9sDntJn/q/+n/mX/CckFFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TenHours.html",
+          "hash": "Mk11ZbvRQWUpvs7mKGUSGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TwelveHours.html",
+          "hash": "9GA2ihorR0zbIOYqpFuATA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TwentyFourHours.html",
+          "hash": "YuGS0h34CHOT/0sjbrGw8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.OneDay.html",
+          "hash": "zJyt/NR7BemD7z+j0R3zuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TwoDays.html",
+          "hash": "33kYDN2i8A5bPcY5LSZfgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.ThreeDays.html",
+          "hash": "4LmAK/runzKzqsfBOds5Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.SixteenMilliseconds.html",
+          "hash": "PcRKSKAa6mk+HB9gxB2ljA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.TwentyMilliseconds.html",
+          "hash": "jD2sZcxsC0j/hpT6qUf2nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.TimeSpans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.TimeSpans.html",
+          "hash": "IRugs2h/xOB7Tdjxh/helA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.UnixTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.UnixTime.UnixEpoch.html",
+          "hash": "fiD3yP92Qoc+8iwH3a3w/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.UnixTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.UnixTime.UnixEpochDateTimeOffset.html",
+          "hash": "kLw7ZaHm031UcECTXcN3Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.UnixTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.UnixTime.ToDateTime.html",
+          "hash": "0CW5/vIhL8k1Fs3NRCi9ZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.UnixTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.UnixTime.ToDateTimeOffset.html",
+          "hash": "Cj+RUZDxbYOZHQj5mX7WUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.UnixTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.UnixTime.ToUnixTimestamp.html",
+          "hash": "GHy5rZysm4vdSvGF4yPzeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.UnixTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.UnixTime.html",
+          "hash": "k7bQ/GLohzDlg9hJ70IjNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TimeyWimey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TimeyWimey.html",
+          "hash": "zte1JLR0NjR5zVAvGqJv7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TimeyWimeyIcon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/TimeyWimeyIcon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TimeyWimeyIconSmall.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TimeyWimeyIconSmall.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "4YKQVl15XzobC9CCAnfYng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

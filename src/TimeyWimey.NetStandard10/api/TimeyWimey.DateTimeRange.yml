@@ -1,0 +1,1459 @@
+### YamlMime:ManagedReference
+items:
+- uid: TimeyWimey.DateTimeRange
+  commentId: T:TimeyWimey.DateTimeRange
+  id: DateTimeRange
+  parent: TimeyWimey
+  children:
+  - TimeyWimey.DateTimeRange.#ctor(System.DateTime,System.DateTime)
+  - TimeyWimey.DateTimeRange.CompareTo(TimeyWimey.DateTimeRange)
+  - TimeyWimey.DateTimeRange.Contains(System.DateTime)
+  - TimeyWimey.DateTimeRange.Contains(TimeyWimey.DateTimeRange)
+  - TimeyWimey.DateTimeRange.Create(System.DateTime,System.DateTime)
+  - TimeyWimey.DateTimeRange.End
+  - TimeyWimey.DateTimeRange.EndAt(System.DateTime)
+  - TimeyWimey.DateTimeRange.Equals(System.Object)
+  - TimeyWimey.DateTimeRange.Equals(TimeyWimey.DateTimeRange)
+  - TimeyWimey.DateTimeRange.GetHashCode
+  - TimeyWimey.DateTimeRange.Length
+  - TimeyWimey.DateTimeRange.op_Equality(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  - TimeyWimey.DateTimeRange.op_GreaterThan(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  - TimeyWimey.DateTimeRange.op_Inequality(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  - TimeyWimey.DateTimeRange.op_LessThan(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  - TimeyWimey.DateTimeRange.Overlaps(TimeyWimey.DateTimeRange)
+  - TimeyWimey.DateTimeRange.Start
+  - TimeyWimey.DateTimeRange.StartAt(System.DateTime)
+  langs:
+  - csharp
+  - vb
+  name: DateTimeRange
+  nameWithType: DateTimeRange
+  fullName: TimeyWimey.DateTimeRange
+  type: Struct
+  source:
+    id: DateTimeRange
+    path: ''
+    startLine: 276
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nRepresents a span of time between specified by a start and end date.\n"
+  remarks: "\n<p>DateTimeRange instances are compared and sorted by their <xref href=\"TimeyWimey.DateTimeRange.Start\" data-throw-if-not-resolved=\"false\"></xref> property, if the values are equal then they are compared by their <xref href=\"TimeyWimey.DateTimeRange.End\" data-throw-if-not-resolved=\"false\"></xref> property. Values with the same start and end values are equal.</p>\n"
+  example: []
+  syntax:
+    content: 'public struct DateTimeRange : IEquatable<DateTimeRange>, IComparable<DateTimeRange>'
+    content.vb: >-
+      Public Structure DateTimeRange
+          Implements IEquatable(Of DateTimeRange), IComparable(Of DateTimeRange)
+  implements:
+  - System.IEquatable{TimeyWimey.DateTimeRange}
+  - System.IComparable{TimeyWimey.DateTimeRange}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: TimeyWimey.DateTimeRange.#ctor(System.DateTime,System.DateTime)
+  commentId: M:TimeyWimey.DateTimeRange.#ctor(System.DateTime,System.DateTime)
+  id: '#ctor(System.DateTime,System.DateTime)'
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: DateTimeRange(DateTime, DateTime)
+  nameWithType: DateTimeRange.DateTimeRange(DateTime, DateTime)
+  fullName: TimeyWimey.DateTimeRange.DateTimeRange(System.DateTime, System.DateTime)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 297
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nCreates a new <xref href=\"TimeyWimey.DateTimeRange\" data-throw-if-not-resolved=\"false\"></xref> instance from two <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> values.\n"
+  remarks: "\n<p>The <code data-dev-comment-type=\"paramref\" class=\"paramref\">start</code> must be less than or equal to <code data-dev-comment-type=\"paramref\" class=\"paramref\">end</code>, otherwise an <xref href=\"System.ArgumentException\" data-throw-if-not-resolved=\"false\"></xref> will be thrown. To create an instance without worrying about the order of the date arguments, use <xref href=\"TimeyWimey.DateTimeRange.Create(System.DateTime%2cSystem.DateTime)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+  example: []
+  syntax:
+    content: public DateTimeRange(DateTime start, DateTime end)
+    parameters:
+    - id: start
+      type: System.DateTime
+      description: The date and time at which this date range starts.
+    - id: end
+      type: System.DateTime
+      description: The date and time at which this date range ends.
+    content.vb: Public Sub New(start As Date, end As Date)
+  overload: TimeyWimey.DateTimeRange.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.DateTimeRange.Start
+  commentId: P:TimeyWimey.DateTimeRange.Start
+  id: Start
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: Start
+  nameWithType: DateTimeRange.Start
+  fullName: TimeyWimey.DateTimeRange.Start
+  type: Property
+  source:
+    id: Start
+    path: ''
+    startLine: 312
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns the date and time this date range starts at.\n"
+  example: []
+  syntax:
+    content: public DateTime Start { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property Start As Date
+  overload: TimeyWimey.DateTimeRange.Start*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TimeyWimey.DateTimeRange.End
+  commentId: P:TimeyWimey.DateTimeRange.End
+  id: End
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: End
+  nameWithType: DateTimeRange.End
+  fullName: TimeyWimey.DateTimeRange.End
+  type: Property
+  source:
+    id: End
+    path: ''
+    startLine: 317
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns the date and time this date range ends at.\n"
+  example: []
+  syntax:
+    content: public DateTime End { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property End As Date
+  overload: TimeyWimey.DateTimeRange.End*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TimeyWimey.DateTimeRange.Length
+  commentId: P:TimeyWimey.DateTimeRange.Length
+  id: Length
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: DateTimeRange.Length
+  fullName: TimeyWimey.DateTimeRange.Length
+  type: Property
+  source:
+    id: Length
+    path: ''
+    startLine: 322
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns the length of the range as a <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> instance.\n"
+  example: []
+  syntax:
+    content: public TimeSpan Length { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public ReadOnly Property Length As TimeSpan
+  overload: TimeyWimey.DateTimeRange.Length*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TimeyWimey.DateTimeRange.Contains(TimeyWimey.DateTimeRange)
+  commentId: M:TimeyWimey.DateTimeRange.Contains(TimeyWimey.DateTimeRange)
+  id: Contains(TimeyWimey.DateTimeRange)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: Contains(DateTimeRange)
+  nameWithType: DateTimeRange.Contains(DateTimeRange)
+  fullName: TimeyWimey.DateTimeRange.Contains(TimeyWimey.DateTimeRange)
+  type: Method
+  source:
+    id: Contains
+    path: ''
+    startLine: 342
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns true if both the start and end properties of <code data-dev-comment-type=\"paramref\" class=\"paramref\">other</code> fall within this date range, or if <code data-dev-comment-type=\"paramref\" class=\"paramref\">other</code> is equal to this date range.\n"
+  example: []
+  syntax:
+    content: public bool Contains(DateTimeRange other)
+    parameters:
+    - id: other
+      type: TimeyWimey.DateTimeRange
+      description: Another <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> to compare to.
+    return:
+      type: System.Boolean
+      description: True if this range specified by this instance contains the range specified by <code data-dev-comment-type="paramref" class="paramref">other</code>.
+    content.vb: Public Function Contains(other As DateTimeRange) As Boolean
+  overload: TimeyWimey.DateTimeRange.Contains*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.DateTimeRange.Contains(System.DateTime)
+  commentId: M:TimeyWimey.DateTimeRange.Contains(System.DateTime)
+  id: Contains(System.DateTime)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: Contains(DateTime)
+  nameWithType: DateTimeRange.Contains(DateTime)
+  fullName: TimeyWimey.DateTimeRange.Contains(System.DateTime)
+  type: Method
+  source:
+    id: Contains
+    path: ''
+    startLine: 353
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns true if the date and time specified by <code data-dev-comment-type=\"paramref\" class=\"paramref\">moment</code> falls within the range specified by this instance, otherwise false.\n"
+  example: []
+  syntax:
+    content: public bool Contains(DateTime moment)
+    parameters:
+    - id: moment
+      type: System.DateTime
+      description: A <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> instance to check.
+    return:
+      type: System.Boolean
+      description: True if the date and time specified by <code data-dev-comment-type="paramref" class="paramref">moment</code> falls within the range specified by this instance, otherwise false.
+    content.vb: Public Function Contains(moment As Date) As Boolean
+  overload: TimeyWimey.DateTimeRange.Contains*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.DateTimeRange.Overlaps(TimeyWimey.DateTimeRange)
+  commentId: M:TimeyWimey.DateTimeRange.Overlaps(TimeyWimey.DateTimeRange)
+  id: Overlaps(TimeyWimey.DateTimeRange)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: Overlaps(DateTimeRange)
+  nameWithType: DateTimeRange.Overlaps(DateTimeRange)
+  fullName: TimeyWimey.DateTimeRange.Overlaps(TimeyWimey.DateTimeRange)
+  type: Method
+  source:
+    id: Overlaps
+    path: ''
+    startLine: 364
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns true if any part of the range specified by this instance overlaps with the range specified by <code data-dev-comment-type=\"paramref\" class=\"paramref\">other</code>.\n"
+  example: []
+  syntax:
+    content: public bool Overlaps(DateTimeRange other)
+    parameters:
+    - id: other
+      type: TimeyWimey.DateTimeRange
+      description: Another <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance to compare to.
+    return:
+      type: System.Boolean
+      description: True if the ranges of the specified instances overlap, otherwise false.
+    content.vb: Public Function Overlaps(other As DateTimeRange) As Boolean
+  overload: TimeyWimey.DateTimeRange.Overlaps*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.DateTimeRange.Create(System.DateTime,System.DateTime)
+  commentId: M:TimeyWimey.DateTimeRange.Create(System.DateTime,System.DateTime)
+  id: Create(System.DateTime,System.DateTime)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: Create(DateTime, DateTime)
+  nameWithType: DateTimeRange.Create(DateTime, DateTime)
+  fullName: TimeyWimey.DateTimeRange.Create(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 382
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nCreates a new <xref href=\"TimeyWimey.DateTimeRange\" data-throw-if-not-resolved=\"false\"></xref> instance from two dates, using the earliest date as the start value.\n"
+  remarks: "\n<p>This method is different to the <xref href=\"TimeyWimey.DateTimeRange.%23ctor(System.DateTime%2cSystem.DateTime)\" data-throw-if-not-resolved=\"false\"></xref> constructor as it will not throw if <code data-dev-comment-type=\"paramref\" class=\"paramref\">dateTime1</code> is greater than <code data-dev-comment-type=\"paramref\" class=\"paramref\">dateTime2</code>.\nInstead, the earliest date is used for the <xref href=\"TimeyWimey.DateTimeRange.Start\" data-throw-if-not-resolved=\"false\"></xref> and the later value for <xref href=\"TimeyWimey.DateTimeRange.End\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+  example: []
+  syntax:
+    content: public static DateTimeRange Create(DateTime dateTime1, DateTime dateTime2)
+    parameters:
+    - id: dateTime1
+      type: System.DateTime
+      description: A <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> instance to use for the <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref>.
+    - id: dateTime2
+      type: System.DateTime
+      description: A <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> instance to use for the <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: TimeyWimey.DateTimeRange
+      description: A new <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> using the two <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> values provided.
+    content.vb: Public Shared Function Create(dateTime1 As Date, dateTime2 As Date) As DateTimeRange
+  overload: TimeyWimey.DateTimeRange.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeRange.EndAt(System.DateTime)
+  commentId: M:TimeyWimey.DateTimeRange.EndAt(System.DateTime)
+  id: EndAt(System.DateTime)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: EndAt(DateTime)
+  nameWithType: DateTimeRange.EndAt(DateTime)
+  fullName: TimeyWimey.DateTimeRange.EndAt(System.DateTime)
+  type: Method
+  source:
+    id: EndAt
+    path: ''
+    startLine: 395
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nCreates a new <xref href=\"TimeyWimey.DateTimeRange\" data-throw-if-not-resolved=\"false\"></xref> instance using the <xref href=\"TimeyWimey.DateTimeRange.Start\" data-throw-if-not-resolved=\"false\"></xref> value of this instance and a new value for <xref href=\"TimeyWimey.DateTimeRange.End\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public DateTimeRange EndAt(DateTime end)
+    parameters:
+    - id: end
+      type: System.DateTime
+      description: A <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> to use as the <xref href="TimeyWimey.DateTimeRange.End" data-throw-if-not-resolved="false"></xref> value for the new instance.
+    return:
+      type: TimeyWimey.DateTimeRange
+      description: A new <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Function EndAt(end As Date) As DateTimeRange
+  overload: TimeyWimey.DateTimeRange.EndAt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.DateTimeRange.StartAt(System.DateTime)
+  commentId: M:TimeyWimey.DateTimeRange.StartAt(System.DateTime)
+  id: StartAt(System.DateTime)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: StartAt(DateTime)
+  nameWithType: DateTimeRange.StartAt(DateTime)
+  fullName: TimeyWimey.DateTimeRange.StartAt(System.DateTime)
+  type: Method
+  source:
+    id: StartAt
+    path: ''
+    startLine: 405
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nCreates a new <xref href=\"TimeyWimey.DateTimeRange\" data-throw-if-not-resolved=\"false\"></xref> instance using the <xref href=\"TimeyWimey.DateTimeRange.End\" data-throw-if-not-resolved=\"false\"></xref> value of this instance and a new value for <xref href=\"TimeyWimey.DateTimeRange.Start\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public DateTimeRange StartAt(DateTime start)
+    parameters:
+    - id: start
+      type: System.DateTime
+      description: A <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> to use as the <xref href="TimeyWimey.DateTimeRange.Start" data-throw-if-not-resolved="false"></xref> value for the new instance.
+    return:
+      type: TimeyWimey.DateTimeRange
+      description: A new <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Function StartAt(start As Date) As DateTimeRange
+  overload: TimeyWimey.DateTimeRange.StartAt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.DateTimeRange.GetHashCode
+  commentId: M:TimeyWimey.DateTimeRange.GetHashCode
+  id: GetHashCode
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: DateTimeRange.GetHashCode()
+  fullName: TimeyWimey.DateTimeRange.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 418
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns a hash code based on the <xref href=\"TimeyWimey.DateTimeRange.Start\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"TimeyWimey.DateTimeRange.End\" data-throw-if-not-resolved=\"false\"></xref> values.\n"
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: An integer containing the hashcode for this instance.
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: TimeyWimey.DateTimeRange.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TimeyWimey.DateTimeRange.Equals(System.Object)
+  commentId: M:TimeyWimey.DateTimeRange.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: DateTimeRange.Equals(Object)
+  fullName: TimeyWimey.DateTimeRange.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 436
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns true if two instances are considered equal. Equality is checked by comparing the <xref href=\"TimeyWimey.DateTimeRange.Start\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"TimeyWimey.DateTimeRange.End\" data-throw-if-not-resolved=\"false\"></xref> properties.\n"
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: A value to compare this instance to. If the value is null or not another <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> the result will be false.
+    return:
+      type: System.Boolean
+      description: True if <code data-dev-comment-type="paramref" class="paramref">obj</code> is considered equal to this instance.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: TimeyWimey.DateTimeRange.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: TimeyWimey.DateTimeRange.Equals(TimeyWimey.DateTimeRange)
+  commentId: M:TimeyWimey.DateTimeRange.Equals(TimeyWimey.DateTimeRange)
+  id: Equals(TimeyWimey.DateTimeRange)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: Equals(DateTimeRange)
+  nameWithType: DateTimeRange.Equals(DateTimeRange)
+  fullName: TimeyWimey.DateTimeRange.Equals(TimeyWimey.DateTimeRange)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 453
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nReturns true if two instances are considered equal. Equality is checked by comparing the <xref href=\"TimeyWimey.DateTimeRange.Start\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"TimeyWimey.DateTimeRange.End\" data-throw-if-not-resolved=\"false\"></xref> properties.\n"
+  example: []
+  syntax:
+    content: public bool Equals(DateTimeRange other)
+    parameters:
+    - id: other
+      type: TimeyWimey.DateTimeRange
+      description: Another <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> to compare this instance to.
+    return:
+      type: System.Boolean
+      description: True if <code data-dev-comment-type="paramref" class="paramref">other</code> is considered equal to this instance.
+    content.vb: Public Function Equals(other As DateTimeRange) As Boolean
+  overload: TimeyWimey.DateTimeRange.Equals*
+  implements:
+  - System.IEquatable{TimeyWimey.DateTimeRange}.Equals(TimeyWimey.DateTimeRange)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.DateTimeRange.CompareTo(TimeyWimey.DateTimeRange)
+  commentId: M:TimeyWimey.DateTimeRange.CompareTo(TimeyWimey.DateTimeRange)
+  id: CompareTo(TimeyWimey.DateTimeRange)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(DateTimeRange)
+  nameWithType: DateTimeRange.CompareTo(DateTimeRange)
+  fullName: TimeyWimey.DateTimeRange.CompareTo(TimeyWimey.DateTimeRange)
+  type: Method
+  source:
+    id: CompareTo
+    path: ''
+    startLine: 472
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nCompares this instance with another <xref href=\"TimeyWimey.DateTimeRange\" data-throw-if-not-resolved=\"false\"></xref> instance. If the instances are equal, returns zero. If this instance is less than <code data-dev-comment-type=\"paramref\" class=\"paramref\">other</code> then -1 one is returned.\nIf this instance is greater than <code data-dev-comment-type=\"paramref\" class=\"paramref\">other</code> then 1 one is returned.\n"
+  remarks: "\n<p>Comparions are performed first on the <xref href=\"TimeyWimey.DateTimeRange.Start\" data-throw-if-not-resolved=\"false\"></xref> properties, if they are equal then a comparison is performed on the <xref href=\"TimeyWimey.DateTimeRange.End\" data-throw-if-not-resolved=\"false\"></xref> properties.</p>\n"
+  example: []
+  syntax:
+    content: public int CompareTo(DateTimeRange other)
+    parameters:
+    - id: other
+      type: TimeyWimey.DateTimeRange
+      description: A <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> to compare to this instance.
+    return:
+      type: System.Int32
+      description: An integer containing the result of the comparions. -1 for less than, 0 for equal, and 1 for greater than.
+    content.vb: Public Function CompareTo(other As DateTimeRange) As Integer
+  overload: TimeyWimey.DateTimeRange.CompareTo*
+  implements:
+  - System.IComparable{TimeyWimey.DateTimeRange}.CompareTo(TimeyWimey.DateTimeRange)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TimeyWimey.DateTimeRange.op_Equality(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  commentId: M:TimeyWimey.DateTimeRange.op_Equality(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  id: op_Equality(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: Equality(DateTimeRange, DateTimeRange)
+  nameWithType: DateTimeRange.Equality(DateTimeRange, DateTimeRange)
+  fullName: TimeyWimey.DateTimeRange.Equality(TimeyWimey.DateTimeRange, TimeyWimey.DateTimeRange)
+  type: Operator
+  source:
+    id: op_Equality
+    path: ''
+    startLine: 493
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nPeforms an equality check, equivalent to calling <xref href=\"TimeyWimey.DateTimeRange.Equals(TimeyWimey.DateTimeRange)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static bool operator ==(DateTimeRange range1, DateTimeRange range2)
+    parameters:
+    - id: range1
+      type: TimeyWimey.DateTimeRange
+      description: A <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance to compare.
+    - id: range2
+      type: TimeyWimey.DateTimeRange
+      description: A <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance to compare.
+    return:
+      type: System.Boolean
+      description: True if the instances are considered equal.
+    content.vb: Public Shared Operator =(range1 As DateTimeRange, range2 As DateTimeRange) As Boolean
+  overload: TimeyWimey.DateTimeRange.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeRange.op_Inequality(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  commentId: M:TimeyWimey.DateTimeRange.op_Inequality(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  id: op_Inequality(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: Inequality(DateTimeRange, DateTimeRange)
+  nameWithType: DateTimeRange.Inequality(DateTimeRange, DateTimeRange)
+  fullName: TimeyWimey.DateTimeRange.Inequality(TimeyWimey.DateTimeRange, TimeyWimey.DateTimeRange)
+  type: Operator
+  source:
+    id: op_Inequality
+    path: ''
+    startLine: 504
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nPeforms an inequality check, equivalent to calling !<xref href=\"TimeyWimey.DateTimeRange.Equals(TimeyWimey.DateTimeRange)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static bool operator !=(DateTimeRange range1, DateTimeRange range2)
+    parameters:
+    - id: range1
+      type: TimeyWimey.DateTimeRange
+      description: A <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance to compare.
+    - id: range2
+      type: TimeyWimey.DateTimeRange
+      description: A <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance to compare.
+    return:
+      type: System.Boolean
+      description: True if the instances are considered unequal.
+    content.vb: Public Shared Operator <>(range1 As DateTimeRange, range2 As DateTimeRange) As Boolean
+  overload: TimeyWimey.DateTimeRange.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeRange.op_LessThan(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  commentId: M:TimeyWimey.DateTimeRange.op_LessThan(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  id: op_LessThan(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: LessThan(DateTimeRange, DateTimeRange)
+  nameWithType: DateTimeRange.LessThan(DateTimeRange, DateTimeRange)
+  fullName: TimeyWimey.DateTimeRange.LessThan(TimeyWimey.DateTimeRange, TimeyWimey.DateTimeRange)
+  type: Operator
+  source:
+    id: op_LessThan
+    path: ''
+    startLine: 515
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nPeforms an comparison, equivalent to; <xref href=\"TimeyWimey.DateTimeRange.CompareTo(TimeyWimey.DateTimeRange)\" data-throw-if-not-resolved=\"false\"></xref> &lt; 0.\n"
+  example: []
+  syntax:
+    content: public static bool operator <(DateTimeRange range1, DateTimeRange range2)
+    parameters:
+    - id: range1
+      type: TimeyWimey.DateTimeRange
+      description: A <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance to compare.
+    - id: range2
+      type: TimeyWimey.DateTimeRange
+      description: A <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance to compare.
+    return:
+      type: System.Boolean
+      description: True if the <code data-dev-comment-type="paramref" class="paramref">range1</code> is considered less than <code data-dev-comment-type="paramref" class="paramref">range2</code>.
+    content.vb: Public Shared Operator <(range1 As DateTimeRange, range2 As DateTimeRange) As Boolean
+  overload: TimeyWimey.DateTimeRange.op_LessThan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TimeyWimey.DateTimeRange.op_GreaterThan(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  commentId: M:TimeyWimey.DateTimeRange.op_GreaterThan(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  id: op_GreaterThan(TimeyWimey.DateTimeRange,TimeyWimey.DateTimeRange)
+  parent: TimeyWimey.DateTimeRange
+  langs:
+  - csharp
+  - vb
+  name: GreaterThan(DateTimeRange, DateTimeRange)
+  nameWithType: DateTimeRange.GreaterThan(DateTimeRange, DateTimeRange)
+  fullName: TimeyWimey.DateTimeRange.GreaterThan(TimeyWimey.DateTimeRange, TimeyWimey.DateTimeRange)
+  type: Operator
+  source:
+    id: op_GreaterThan
+    path: ''
+    startLine: 526
+  assemblies:
+  - cs.temp.dll
+  namespace: TimeyWimey
+  summary: "\nPeforms an comparison, equivalent to; <xref href=\"TimeyWimey.DateTimeRange.CompareTo(TimeyWimey.DateTimeRange)\" data-throw-if-not-resolved=\"false\"></xref> > 0.\n"
+  example: []
+  syntax:
+    content: public static bool operator>(DateTimeRange range1, DateTimeRange range2)
+    parameters:
+    - id: range1
+      type: TimeyWimey.DateTimeRange
+      description: A <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance to compare.
+    - id: range2
+      type: TimeyWimey.DateTimeRange
+      description: A <xref href="TimeyWimey.DateTimeRange" data-throw-if-not-resolved="false"></xref> instance to compare.
+    return:
+      type: System.Boolean
+      description: True if the <code data-dev-comment-type="paramref" class="paramref">range1</code> is considered greater than <code data-dev-comment-type="paramref" class="paramref">range2</code>.
+    content.vb: Public Shared Operator>(range1 As DateTimeRange, range2 As DateTimeRange) As Boolean
+  overload: TimeyWimey.DateTimeRange.op_GreaterThan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TimeyWimey.DateTimeRange.Start
+  commentId: P:TimeyWimey.DateTimeRange.Start
+- uid: TimeyWimey.DateTimeRange.End
+  commentId: P:TimeyWimey.DateTimeRange.End
+- uid: TimeyWimey
+  commentId: N:TimeyWimey
+  isExternal: false
+  name: TimeyWimey
+  nameWithType: TimeyWimey
+  fullName: TimeyWimey
+- uid: System.IEquatable{TimeyWimey.DateTimeRange}
+  commentId: T:System.IEquatable{TimeyWimey.DateTimeRange}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<DateTimeRange>
+  nameWithType: IEquatable<DateTimeRange>
+  fullName: System.IEquatable<TimeyWimey.DateTimeRange>
+  nameWithType.vb: IEquatable(Of DateTimeRange)
+  fullName.vb: System.IEquatable(Of TimeyWimey.DateTimeRange)
+  name.vb: IEquatable(Of DateTimeRange)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeyWimey.DateTimeRange
+    name: DateTimeRange
+    nameWithType: DateTimeRange
+    fullName: TimeyWimey.DateTimeRange
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeyWimey.DateTimeRange
+    name: DateTimeRange
+    nameWithType: DateTimeRange
+    fullName: TimeyWimey.DateTimeRange
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IComparable{TimeyWimey.DateTimeRange}
+  commentId: T:System.IComparable{TimeyWimey.DateTimeRange}
+  parent: System
+  definition: System.IComparable`1
+  name: IComparable<DateTimeRange>
+  nameWithType: IComparable<DateTimeRange>
+  fullName: System.IComparable<TimeyWimey.DateTimeRange>
+  nameWithType.vb: IComparable(Of DateTimeRange)
+  fullName.vb: System.IComparable(Of TimeyWimey.DateTimeRange)
+  name.vb: IComparable(Of DateTimeRange)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TimeyWimey.DateTimeRange
+    name: DateTimeRange
+    nameWithType: DateTimeRange
+    fullName: TimeyWimey.DateTimeRange
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TimeyWimey.DateTimeRange
+    name: DateTimeRange
+    nameWithType: DateTimeRange
+    fullName: TimeyWimey.DateTimeRange
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TimeyWimey.DateTimeRange
+  commentId: T:TimeyWimey.DateTimeRange
+  parent: TimeyWimey
+  isExternal: false
+  name: DateTimeRange
+  nameWithType: DateTimeRange
+  fullName: TimeyWimey.DateTimeRange
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+- uid: TimeyWimey.DateTimeRange.Create(System.DateTime,System.DateTime)
+  commentId: M:TimeyWimey.DateTimeRange.Create(System.DateTime,System.DateTime)
+- uid: TimeyWimey.DateTimeRange.#ctor*
+  commentId: Overload:TimeyWimey.DateTimeRange.#ctor
+  isExternal: false
+  name: DateTimeRange
+  nameWithType: DateTimeRange.DateTimeRange
+  fullName: TimeyWimey.DateTimeRange.DateTimeRange
+- uid: TimeyWimey.DateTimeRange.Start*
+  commentId: Overload:TimeyWimey.DateTimeRange.Start
+  isExternal: false
+  name: Start
+  nameWithType: DateTimeRange.Start
+  fullName: TimeyWimey.DateTimeRange.Start
+- uid: TimeyWimey.DateTimeRange.End*
+  commentId: Overload:TimeyWimey.DateTimeRange.End
+  isExternal: false
+  name: End
+  nameWithType: DateTimeRange.End
+  fullName: TimeyWimey.DateTimeRange.End
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: TimeyWimey.DateTimeRange.Length*
+  commentId: Overload:TimeyWimey.DateTimeRange.Length
+  isExternal: false
+  name: Length
+  nameWithType: DateTimeRange.Length
+  fullName: TimeyWimey.DateTimeRange.Length
+- uid: TimeyWimey.DateTimeRange.Contains*
+  commentId: Overload:TimeyWimey.DateTimeRange.Contains
+  isExternal: false
+  name: Contains
+  nameWithType: DateTimeRange.Contains
+  fullName: TimeyWimey.DateTimeRange.Contains
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TimeyWimey.DateTimeRange.Overlaps*
+  commentId: Overload:TimeyWimey.DateTimeRange.Overlaps
+  isExternal: false
+  name: Overlaps
+  nameWithType: DateTimeRange.Overlaps
+  fullName: TimeyWimey.DateTimeRange.Overlaps
+- uid: TimeyWimey.DateTimeRange.#ctor(System.DateTime,System.DateTime)
+  commentId: M:TimeyWimey.DateTimeRange.#ctor(System.DateTime,System.DateTime)
+- uid: TimeyWimey.DateTimeRange.Create*
+  commentId: Overload:TimeyWimey.DateTimeRange.Create
+  isExternal: false
+  name: Create
+  nameWithType: DateTimeRange.Create
+  fullName: TimeyWimey.DateTimeRange.Create
+- uid: TimeyWimey.DateTimeRange.EndAt*
+  commentId: Overload:TimeyWimey.DateTimeRange.EndAt
+  isExternal: false
+  name: EndAt
+  nameWithType: DateTimeRange.EndAt
+  fullName: TimeyWimey.DateTimeRange.EndAt
+- uid: TimeyWimey.DateTimeRange.StartAt*
+  commentId: Overload:TimeyWimey.DateTimeRange.StartAt
+  isExternal: false
+  name: StartAt
+  nameWithType: DateTimeRange.StartAt
+  fullName: TimeyWimey.DateTimeRange.StartAt
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TimeyWimey.DateTimeRange.GetHashCode*
+  commentId: Overload:TimeyWimey.DateTimeRange.GetHashCode
+  isExternal: false
+  name: GetHashCode
+  nameWithType: DateTimeRange.GetHashCode
+  fullName: TimeyWimey.DateTimeRange.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TimeyWimey.DateTimeRange.Equals*
+  commentId: Overload:TimeyWimey.DateTimeRange.Equals
+  isExternal: false
+  name: Equals
+  nameWithType: DateTimeRange.Equals
+  fullName: TimeyWimey.DateTimeRange.Equals
+- uid: System.IEquatable{TimeyWimey.DateTimeRange}.Equals(TimeyWimey.DateTimeRange)
+  commentId: M:System.IEquatable{TimeyWimey.DateTimeRange}.Equals(TimeyWimey.DateTimeRange)
+  parent: System.IEquatable{TimeyWimey.DateTimeRange}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(DateTimeRange)
+  nameWithType: IEquatable<DateTimeRange>.Equals(DateTimeRange)
+  fullName: System.IEquatable<TimeyWimey.DateTimeRange>.Equals(TimeyWimey.DateTimeRange)
+  nameWithType.vb: IEquatable(Of DateTimeRange).Equals(DateTimeRange)
+  fullName.vb: System.IEquatable(Of TimeyWimey.DateTimeRange).Equals(TimeyWimey.DateTimeRange)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<DateTimeRange>.Equals
+    fullName: System.IEquatable<TimeyWimey.DateTimeRange>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TimeyWimey.DateTimeRange
+    name: DateTimeRange
+    nameWithType: DateTimeRange
+    fullName: TimeyWimey.DateTimeRange
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of DateTimeRange).Equals
+    fullName: System.IEquatable(Of TimeyWimey.DateTimeRange).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TimeyWimey.DateTimeRange
+    name: DateTimeRange
+    nameWithType: DateTimeRange
+    fullName: TimeyWimey.DateTimeRange
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<T>.Equals
+    fullName: System.IEquatable<T>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of T).Equals
+    fullName: System.IEquatable(Of T).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TimeyWimey.DateTimeRange.CompareTo*
+  commentId: Overload:TimeyWimey.DateTimeRange.CompareTo
+  isExternal: false
+  name: CompareTo
+  nameWithType: DateTimeRange.CompareTo
+  fullName: TimeyWimey.DateTimeRange.CompareTo
+- uid: System.IComparable{TimeyWimey.DateTimeRange}.CompareTo(TimeyWimey.DateTimeRange)
+  commentId: M:System.IComparable{TimeyWimey.DateTimeRange}.CompareTo(TimeyWimey.DateTimeRange)
+  parent: System.IComparable{TimeyWimey.DateTimeRange}
+  definition: System.IComparable`1.CompareTo(`0)
+  name: CompareTo(DateTimeRange)
+  nameWithType: IComparable<DateTimeRange>.CompareTo(DateTimeRange)
+  fullName: System.IComparable<TimeyWimey.DateTimeRange>.CompareTo(TimeyWimey.DateTimeRange)
+  nameWithType.vb: IComparable(Of DateTimeRange).CompareTo(DateTimeRange)
+  fullName.vb: System.IComparable(Of TimeyWimey.DateTimeRange).CompareTo(TimeyWimey.DateTimeRange)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable<DateTimeRange>.CompareTo
+    fullName: System.IComparable<TimeyWimey.DateTimeRange>.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TimeyWimey.DateTimeRange
+    name: DateTimeRange
+    nameWithType: DateTimeRange
+    fullName: TimeyWimey.DateTimeRange
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable(Of DateTimeRange).CompareTo
+    fullName: System.IComparable(Of TimeyWimey.DateTimeRange).CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: TimeyWimey.DateTimeRange
+    name: DateTimeRange
+    nameWithType: DateTimeRange
+    fullName: TimeyWimey.DateTimeRange
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable<T>.CompareTo
+    fullName: System.IComparable<T>.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable(Of T).CompareTo
+    fullName: System.IComparable(Of T).CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TimeyWimey.DateTimeRange.Equals(TimeyWimey.DateTimeRange)
+  commentId: M:TimeyWimey.DateTimeRange.Equals(TimeyWimey.DateTimeRange)
+- uid: TimeyWimey.DateTimeRange.op_Equality*
+  commentId: Overload:TimeyWimey.DateTimeRange.op_Equality
+  isExternal: false
+  name: Equality
+  nameWithType: DateTimeRange.Equality
+  fullName: TimeyWimey.DateTimeRange.Equality
+- uid: TimeyWimey.DateTimeRange.op_Inequality*
+  commentId: Overload:TimeyWimey.DateTimeRange.op_Inequality
+  isExternal: false
+  name: Inequality
+  nameWithType: DateTimeRange.Inequality
+  fullName: TimeyWimey.DateTimeRange.Inequality
+- uid: TimeyWimey.DateTimeRange.CompareTo(TimeyWimey.DateTimeRange)
+  commentId: M:TimeyWimey.DateTimeRange.CompareTo(TimeyWimey.DateTimeRange)
+- uid: TimeyWimey.DateTimeRange.op_LessThan*
+  commentId: Overload:TimeyWimey.DateTimeRange.op_LessThan
+  isExternal: false
+  name: LessThan
+  nameWithType: DateTimeRange.LessThan
+  fullName: TimeyWimey.DateTimeRange.LessThan
+- uid: TimeyWimey.DateTimeRange.op_GreaterThan*
+  commentId: Overload:TimeyWimey.DateTimeRange.op_GreaterThan
+  isExternal: false
+  name: GreaterThan
+  nameWithType: DateTimeRange.GreaterThan
+  fullName: TimeyWimey.DateTimeRange.GreaterThan
